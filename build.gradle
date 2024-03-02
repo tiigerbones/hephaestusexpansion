@@ -99,6 +99,8 @@ dependencies {
 	// Jade
 	modImplementation "maven.modrinth:nvQzSEkH:OPfSqApE"
 
+        modImplementation "vazkii.patchouli:Patchouli:${patchouli_version}-FABRIC"
+
 	modImplementation annotationProcessor(include("com.github.mattidragon:configtoolkit:$configtoolkit_version"))
 	// I can't believe I have to say this in a Minecraft video, but here it comes:
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
