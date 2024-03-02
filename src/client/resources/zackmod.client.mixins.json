@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "io.zackmyers.mcmod.mixin",
+	"package": "io.zackmyers.zackmod.mixin.client",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

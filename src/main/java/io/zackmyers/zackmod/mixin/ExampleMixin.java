@@ -1,4 +1,4 @@
-package io.zackmyers.mcmod.mixin;
+package io.zackmyers.zackmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

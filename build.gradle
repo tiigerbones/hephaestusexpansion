@@ -11,38 +11,153 @@ base {
 }
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
+	mavenCentral()
+	maven { url = "https://libraries.minecraft.net/" }
+	maven { url = "https://api.modrinth.com/maven" }
+	maven { url = "https://maven.terraformersmc.com/releases/" }
+	maven { url = "https://maven.shedaniel.me/"  }
+	maven { url = "https://maven.wispforest.io" } // TOP
+	maven { url = "https://maven.blamejared.com" } // CraftTweaker, Immersive Engineering
+	maven { url = "https://www.cursemaven.com" }
+	maven { url = "https://maven.ladysnake.org/releases" }
+	maven { url = "https://mvn.devos.one/releases/" }
+	maven { url = "https://mvn.devos.one/snapshots/" }
+	maven { url = "https://maven.parchmentmc.org" }
+	maven { url = "https://maven.vram.io" }
+	maven { url = "https://jitpack.io" }
+	maven {
+		// location of the maven that hosts JEI files
+		name = "Progwml6 maven"
+		url = "https://dvs1.progwml6.com/files/maven/"
+	}
+	maven {
+		// location of a maven mirror for JEI files, as a fallback
+		name = "ModMaven"
+		url = "https://modmaven.dev"
+	}
+	maven {
+		url "https://maven.jamieswhiteshirt.com/libs-release"
+		content {
+			includeGroup "com.jamieswhiteshirt"
+		}
+	}
+	maven {
+		name = "Modrinth"
+		url = "https://api.modrinth.com/maven"
+	}
+	maven {
+		url "https://cursemaven.com"
+	}
 }
 
 loom {
-    splitEnvironmentSourceSets()
-
-	mods {
-		"alfie-mod" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
+    runs {
+		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
+		datagen {
+			client()
+			name "Data Generation"
+			vmArg "-Dfabric-api.datagen"
+			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+			vmArg "-Dfabric-api.datagen.modid=hephaestusplus"
+			property "porting_lib.datagen.existing_resources", file("src/main/resources").absolutePath
+			property "porting_lib.datagen.existing_mods", "tconstruct"
+			runDir "build/datagen"
 		}
 	}
-
 }
 
+// Add the generated resources to the main source set
+sourceSets {
+	main {
+		resources {
+			srcDirs += [
+					'src/main/generated'
+			]
+		}
+	}
+}
 dependencies {
+	implementation 'org.projectlombok:lombok:1.18.22'
+
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	//mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	mappings loom.layered() {
+		officialMojangMappings()
+		parchment("org.parchmentmc.data:parchment-1.19.3:2023.03.12@zip") // Don't know why Botania uses 1.19.3 parchment data, but ditto.
+		//mappings("net.fabricmc:yarn:${project.yarn_mappings}:v2")
+	}
+
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
-	// Uncomment the following line to enable the deprecated Fabric API modules. 
-	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
-	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+	// Hephaestus
+	modImplementation "slimeknights.tconstruct:Hephaestus:${minecraft_version}-${hephaestus_version}"
+	modImplementation("slimeknights.mantle:Mantle:${minecraft_version}-${mantle_version}")
+	// Jade
+	modImplementation "maven.modrinth:nvQzSEkH:OPfSqApE"
+
+	modImplementation annotationProcessor(include("com.github.mattidragon:configtoolkit:$configtoolkit_version"))
+	// I can't believe I have to say this in a Minecraft video, but here it comes:
+	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
+
+	if (project.use_fabricae_ex_nihilo.toBoolean()) {
+		modImplementation "maven.modrinth:j9JARqmz:vkrmmrFW"
+	} else {
+		modCompileOnly "maven.modrinth:j9JARqmz:vkrmmrFW"
+	}
+
+	if (project.use_mythic_metals.toBoolean()) {
+		modImplementation "maven.modrinth:mythicmetals:${project.mm_version}"
+		modImplementation "maven.modrinth:alloy-forgery:${project.af_version}"
+	} else {
+		modCompileOnly "maven.modrinth:mythicmetals:${project.mm_version}"
+		modCompileOnly "maven.modrinth:alloy-forgery:${project.af_version}"
+	}
+
+	if (project.use_botania.toBoolean()) {
+		modImplementation("vazkii.botania:Botania:1.20.1-441-FABRIC") {
+			exclude group: "dev.emi", module: "emi-fabric"
+		}
+	} else {
+		modCompileOnly("vazkii.botania:Botania:1.20.1-441-FABRIC") {
+			exclude group: "dev.emi", module: "emi-fabric"
+		}
+	}
+
+	if (project.use_tech_reborn.toBoolean()) {
+		modImplementation "curse.maven:techreborn-233564:4708962"
+		modImplementation "curse.maven:reborncore-237903:4708961"
+	} else {
+		modCompileOnly "curse.maven:techreborn-233564:4708962"
+		modCompileOnly "curse.maven:reborncore-237903:4708961"
+	}
+
+
+	modRuntimeOnly "maven.modrinth:tamago:2.2"
+	// Come on, trigger the Bytecode Junkie
+	//modRuntimeOnly("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
+	modRuntimeOnly "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cca_version}"
+	modRuntimeOnly "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cca_version}"
+
+	// Additional Entity Attributes
+	modImplementation ("maven.modrinth:additionalentityattributes:${project.aea_version}")
+
+	include(modApi("teamreborn:energy:${project.tr_energy_version}")) {
+		transitive = false
+	}
+
+	implementation("javax.annotation:javax.annotation-api:1.3.2")
+	compileOnly 'com.google.code.findbugs:jsr305:3.0.1'
+	// Try bundling PortingLib
+	for (String module in port_lib_modules.split(",")) {
+		modImplementation("io.github.fabricators_of_create.Porting-Lib:$module:$port_lib_version+$minecraft_base_version")
+	}
+	// Tech Reborn
+
+	//modImplementation include("dev.isxander.yacl:yet-another-config-lib-fabric:$yacl_version")
 }
 
 processResources {

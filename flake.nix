@@ -10,11 +10,11 @@ let
 in { 
   devShell.${system} = pkgs.mkShell rec {
     name = "java-shell";
-    buildInputs = with pkgs; [ jdk11 ];
+    buildInputs = with pkgs; [ jdk17 gradle ];
     
     shellHook = ''
-      export JAVA_HOME=${pkgs.jdk11}
-      PATH="${pkgs.jdk11}/bin:$PATH"
+      export JAVA_HOME=${pkgs.jdk17}
+      PATH="${pkgs.jdk17}/bin:$PATH"
     '';
   };
  };
