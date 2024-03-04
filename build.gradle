@@ -58,7 +58,7 @@ loom {
 			name "Data Generation"
 			vmArg "-Dfabric-api.datagen"
 			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
-			vmArg "-Dfabric-api.datagen.modid=hephaestusplus"
+			vmArg "-Dfabric-api.datagen.modid=hepheastusexpansion"
 			property "porting_lib.datagen.existing_resources", file("src/main/resources").absolutePath
 			property "porting_lib.datagen.existing_mods", "tconstruct"
 			runDir "build/datagen"
@@ -105,11 +105,11 @@ dependencies {
 	// I can't believe I have to say this in a Minecraft video, but here it comes:
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 
-	if (project.use_fabricae_ex_nihilo.toBoolean()) {
-		modImplementation "maven.modrinth:j9JARqmz:vkrmmrFW"
-	} else {
-		modCompileOnly "maven.modrinth:j9JARqmz:vkrmmrFW"
-	}
+	//if (project.use_fabricae_ex_nihilo.toBoolean()) {
+	//	modImplementation "maven.modrinth:j9JARqmz:vkrmmrFW"
+	//} else {
+	//	modCompileOnly "maven.modrinth:j9JARqmz:vkrmmrFW"
+	//}
 
 	if (project.use_mythic_metals.toBoolean()) {
 		modImplementation "maven.modrinth:mythicmetals:${project.mm_version}"
@@ -119,23 +119,23 @@ dependencies {
 		modCompileOnly "maven.modrinth:alloy-forgery:${project.af_version}"
 	}
 
-	if (project.use_botania.toBoolean()) {
-		modImplementation("vazkii.botania:Botania:1.20.1-441-FABRIC") {
-			exclude group: "dev.emi", module: "emi-fabric"
-		}
-	} else {
-		modCompileOnly("vazkii.botania:Botania:1.20.1-441-FABRIC") {
-			exclude group: "dev.emi", module: "emi-fabric"
-		}
-	}
+	//if (project.use_botania.toBoolean()) {
+	//	modImplementation("vazkii.botania:Botania:1.20.1-441-FABRIC") {
+	//		exclude group: "dev.emi", module: "emi-fabric"
+	//	}
+	//} else {
+	//	modCompileOnly("vazkii.botania:Botania:1.20.1-441-FABRIC") {
+	//		exclude group: "dev.emi", module: "emi-fabric"
+	//	}
+	//}
 
-	if (project.use_tech_reborn.toBoolean()) {
-		modImplementation "curse.maven:techreborn-233564:4708962"
-		modImplementation "curse.maven:reborncore-237903:4708961"
-	} else {
-		modCompileOnly "curse.maven:techreborn-233564:4708962"
-		modCompileOnly "curse.maven:reborncore-237903:4708961"
-	}
+	//if (project.use_tech_reborn.toBoolean()) {
+	//	modImplementation "curse.maven:techreborn-233564:4708962"
+	//	modImplementation "curse.maven:reborncore-237903:4708961"
+	//} else {
+	//	modCompileOnly "curse.maven:techreborn-233564:4708962"
+	//	modCompileOnly "curse.maven:reborncore-237903:4708961"
+	//}
 
 
 	modRuntimeOnly "maven.modrinth:tamago:2.2"
