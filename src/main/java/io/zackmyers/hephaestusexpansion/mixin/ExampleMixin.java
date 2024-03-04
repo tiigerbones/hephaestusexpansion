@@ -1,4 +1,4 @@
-package io.zackmyers.zackmod.mixin;
+package io.zackmyers.hephaestusexpansion.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
