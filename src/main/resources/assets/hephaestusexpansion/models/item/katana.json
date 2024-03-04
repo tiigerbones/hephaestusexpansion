@@ -5,13 +5,13 @@
       "head":        "hephaestusexpansion:item/tool/katana/blade",
       "broken_head": "hephaestusexpansion:item/tool/katana/broken_blade",
       "handle":      "hephaestusexpansion:item/tool/katana/handle",
-      "binding":     "hephaestusexpansion:item/tool/katana/binding"
+      "guard":     "hephaestusexpansion:item/tool/katana/guard"
     },
     "modifier_roots": [ "hephaestusadditions:item/tool/katana/modifiers/" ],
     "parts": [
       { "name": "handle",  "index": 1 },
-      { "name": "blade",    "index": 0, "broken": "broken_blade" },
-      { "name": "binding", "index": 2 }
+      { "name": "head",    "index": 0, "broken": "broken_blade" },
+      { "name": "guard", "index": 2 }
     ],
     "overrides": [{
       "predicate": { "tconstruct:charging": 2 },
