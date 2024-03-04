@@ -29,9 +29,9 @@ public class HephaestusExpansion implements ModInitializer {
 		// Proceed with mild caution.
 		MixinExtrasBootstrap.init();
 
-		boolean isFENLoaded = FabricLoader.getInstance().isModLoaded("simplyswords");
+		boolean isSSLoaded = FabricLoader.getInstance().isModLoaded("simplyswords");
 		boolean isMythicMetalsLoaded = FabricLoader.getInstance().isModLoaded("mythicmetals");
-		if (!(isFENLoaded || isMythicMetalsLoaded)) {
+		if (!(isSSLoaded || isMythicMetalsLoaded)) {
 			LOGGER.warn("Neither SimplySwords nor Mythic Metals were detected! Currently HephaestusExpansion does not add any additions to the base Hephaestus.");
 		}
 	}
