@@ -111,6 +111,14 @@ dependencies {
 	//	modCompileOnly "maven.modrinth:j9JARqmz:vkrmmrFW"
 	//}
 
+	if (project.use_simplyswords.toBoolean()) {
+		modImplementation "maven.modrinth:bK3Ubu9p:${project.ss_version}"
+		modImplementation "maven.modrinth:cloth-config:${project.cloth_version}"
+	} else {
+		modCompileOnly "maven.modrinth:bK3Ubu9p:${project.ss_version}"
+		modCompileOnly "maven.modrinth:cloth-config:${project.cloth_version}"
+	}
+
 	if (project.use_mythic_metals.toBoolean()) {
 		modImplementation "maven.modrinth:mythicmetals:${project.mm_version}"
 		modImplementation "maven.modrinth:alloy-forgery:${project.af_version}"
@@ -118,6 +126,9 @@ dependencies {
 		modCompileOnly "maven.modrinth:mythicmetals:${project.mm_version}"
 		modCompileOnly "maven.modrinth:alloy-forgery:${project.af_version}"
 	}
+
+	// cloth-config
+
 
 	//if (project.use_botania.toBoolean()) {
 	//	modImplementation("vazkii.botania:Botania:1.20.1-441-FABRIC") {
