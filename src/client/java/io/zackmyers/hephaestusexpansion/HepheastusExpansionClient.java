@@ -1,8 +1,8 @@
-package io.zackmyers.zackmod;
+package io.zackmyers.hephaestusexpansion;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class ZackmodClient implements ClientModInitializer {
+public class hephaestusexpansionClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
