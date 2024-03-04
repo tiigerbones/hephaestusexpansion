@@ -1,0 +1,259 @@
+{
+  "_comment1": "hephaestusexpansion Tools",
+
+  "item.hephaestusexpansion.katana": "katana",
+  "item.hephaestusexpansion.katana_blade": "katana blade",
+
+  "_comment2": "hephaestusexpansion Tool Descriptions",
+
+  "item.hephaestusexpansion.katana.description": "The katana is a weapon, duh.. ~~come up with a description~~",
+
+  "_comment3": "hephaestusexpansion Modifiers",
+
+  "modifier.hephaestusexpansion.regrowth": "Regrowth",
+  "modifier.hephaestusexpansion.regrowth.flavor": "Naturally fascinating!",
+  "modifier.hephaestusexpansion.regrowth.description": "Magically regenerates itself over time!",
+  "modifier.hephaestusexpansion.regrowth.attack_damage": "Overgrown Damage",
+
+  "modifier.hephaestusexpansion.branding": "Branding",
+  "modifier.hephaestusexpansion.branding.flavor": "Feeling like a cowboy?",
+  "modifier.hephaestusexpansion.branding.description": "Hitting mobs may make them hotter. Hotter mobs burn with more lively fire.",
+
+  "modifier.hephaestusexpansion.cosmic": "Cosmic",
+  "modifier.hephaestusexpansion.cosmic.flavor": "¡puǝᴉɹɟ s,ɹǝuᴉW",
+  "modifier.hephaestusexpansion.cosmic.description": "Tool mines faster the higher you mine, just don't mine too high",
+  "modifier.hephaestusexpansion.cosmic.mining_speed": "Height Mining",
+
+  "modifier.hephaestusexpansion.magically_modifiable": "Magically Modifiable",
+  "modifier.hephaestusexpansion.magically_modifiable.flavor": "Shiny!",
+  "modifier.hephaestusexpansion.magically_modifiable.description": "Mythril's magical properties set the tool off with a bonus upgrade!",
+
+  "modifier.hephaestusexpansion.stellar_swiftness": "Stellar Swiftness",
+  "modifier.hephaestusexpansion.stellar_swiftness.flavor": "Swift like a shooting star!",
+  "modifier.hephaestusexpansion.stellar_swiftness.description": "Your tool swings and mines really fast!",
+
+  "modifier.hephaestusexpansion.durable": "Durable",
+  "modifier.hephaestusexpansion.durable.flavor": "Not a powercell!",
+  "modifier.hephaestusexpansion.durable.description": "Tool is way longer lasting, mines faster and damages more",
+
+  "modifier.hephaestusexpansion.solid": "Solid",
+  "modifier.hephaestusexpansion.solid.flavor": "The more you damage it, the more durable it becomes!",
+  "modifier.hephaestusexpansion.solid.description": "Your tool takes less damage every lost durability point",
+
+  "modifier.hephaestusexpansion.prismatic": "Prismatic",
+  "modifier.hephaestusexpansion.prismatic.flavor": "Focus the light, damage the monsters!",
+  "modifier.hephaestusexpansion.prismatic.description": "Your tool deals more damage when standing in lit areas",
+  "modifier.hephaestusexpansion.prismatic.attack_damage": "Prismatic Damage",
+
+  "modifier.hephaestusexpansion.storm_spell": "Storm Spell",
+  "modifier.hephaestusexpansion.storm_spell.flavor": "Who needs mana?",
+  "modifier.hephaestusexpansion.storm_spell.description": "Striking an opponent may summon thunder upon them",
+
+  "modifier.hephaestusexpansion.freezing": "Freezing",
+  "modifier.hephaestusexpansion.freezing.flavor": "Go! Stop! Go!",
+  "modifier.hephaestusexpansion.freezing.description": "Striking an opponent may freeze them in place for a brief amount of time",
+
+  "modifier.hephaestusexpansion.carmot_synergy": "Carmot Synergy",
+  "modifier.hephaestusexpansion.carmot_synergy.flavor": "Goes well with Carmot Armor!",
+  "modifier.hephaestusexpansion.carmot_synergy.description": "Holding a tool will regenerate Carmot Shield faster",
+
+  "modifier.hephaestusexpansion.carmot_shield": "Carmot Shield",
+  "modifier.hephaestusexpansion.carmot_shield.flavor": "We are... protected!",
+  "modifier.hephaestusexpansion.carmot_shield.description": "Provides Carmot Shield to armor which absorbs damage and regenerates over time",
+
+  "modifier.hephaestusexpansion.carmot_boost": "Carmot Boost",
+  "modifier.hephaestusexpansion.carmot_boost.flavor": "Not protected enough.",
+  "modifier.hephaestusexpansion.carmot_boost.description": "Strengthens the Carmot Shield, adding more capacity",
+  "recipe.hephaestusexpansion.modifier.carmot_shield_required": "Requires the Carmot Shield ability to be added first",
+
+  "modifier.hephaestusexpansion.unobtainable": "Unobtainable",
+  "modifier.hephaestusexpansion.unobtainable.flavor": "Only you are worthy of this tool.",
+  "modifier.hephaestusexpansion.unobtainable.description": "Only the person who forged the tool from this part may hold it",
+  "modifier.hephaestusexpansion.unobtainable.tool_no_owner": "Unbound",
+  "modifier.hephaestusexpansion.unobtainable.tool_owned_by": "Owned by",
+  "modifier.hephaestusexpansion.unobtainable.not_your_tool": "§cNot your tool!§r",
+  "modifier.hephaestusexpansion.unobtainable.your_tool": "§aYour tool§r",
+
+  "modifier.hephaestusexpansion.soul_powered": "Soul Powered",
+  "modifier.hephaestusexpansion.soul_powered.flavor": "Powered by souls of your deceased opponents",
+  "modifier.hephaestusexpansion.soul_powered.description": "Your tool damages more, the more mobs you kill!",
+  "modifier.hephaestusexpansion.soul_powered.stored_souls": "Stored Souls",
+  "modifier.hephaestusexpansion.soul_powered.attack_damage": "Soul Powered Damage",
+
+  "modifier.hephaestusexpansion.bang_bang": "Bang Bang",
+  "modifier.hephaestusexpansion.bang_bang.flavor": "Kaboom!",
+  "modifier.hephaestusexpansion.bang_bang.description": "Tool can blast tunnels if Legendary Banglum is applied",
+
+  "modifier.hephaestusexpansion.legendary_banglum": "Legendary Banglum",
+  "modifier.hephaestusexpansion.legendary_banglum.flavor": "Ka-pow!",
+  "modifier.hephaestusexpansion.legendary_banglum.description": "Increases knockback, gives greater buffs to tools with Banglum parts.",
+
+  "_comment4": "HephaestusTools Patterns",
+  "pattern.hephaestusexpansion.katana_blade": "katana blade",
+  "item.hephaestusexpansion.katana_blade_cast": "katana blade Cast",
+  "item.hephaestusexpansion.katana_blade_sand_cast": "katana blade Sand Cast",
+  "item.hephaestusexpansion.katana_blade_red_sand_cast": "katana blade Red Sand Cast",
+
+  "_comment5": "HephaestusTools Items",
+  "item.hephaestusexpansion.carmot_reinforcement": "Carmot Reinforcement",
+
+  "_comment6": "hephaestusexpansion Materials",
+
+  "material.hephaestusexpansion.adamantite": "Adamantite",
+  "material.hephaestusexpansion.adamantite.flavor": "Legends say that this alloy is sharper than diamonds.",
+  "material.hephaestusexpansion.adamantite.encyclopedia": "Grants +0.75 attack damage per level",
+
+  "material.hephaestusexpansion.aquarium": "Aquarium",
+  "material.hephaestusexpansion.aquarium.flavor": "An aquatic alloy, has strong affinity to water",
+  "material.hephaestusexpansion.aquarium.encyclopedia": "Negates the mining penalty when mining underwater, and grants +8 mining speed underwater, or +4 mining speed when in rain per level.",
+
+  "material.hephaestusexpansion.banglum": "Banglum",
+  "material.hephaestusexpansion.banglum.flavor": "A very explosive metal! Don't detonate yourself!",
+  "material.hephaestusexpansion.banglum.encyclopedia": "If Legendary Banglum is applied, the tool can blast 3x3x(level*2) tunnels, consuming 2 durability per block.",
+
+  "material.hephaestusexpansion.carmot": "Carmot",
+  "material.hephaestusexpansion.carmot.flavor": "Legends say that the Philosopher's Stone was made out of this metal.",
+  "material.hephaestusexpansion.carmot.encyclopedia": "Holding a tool with Carmot Synergy will shorten the shield's maximum cooldown by 1 second per level, and speed up the shield regeneration rate. Binding gives an extra level of Fortune.",
+
+  "material.hephaestusexpansion.celestium": "Celestium",
+  "material.hephaestusexpansion.celestium.flavor": "A celestial alloy, incredibly sharp and surprisingly lightweight.",
+  "material.hephaestusexpansion.celestium.encyclopedia": "Only the person that created the tool can hold it safely - others will take continuous damage holding the tool.",
+
+  "material.hephaestusexpansion.durasteel": "Durasteel",
+  "material.hephaestusexpansion.durasteel.flavor": "Durable steel.",
+  "material.hephaestusexpansion.durasteel.encyclopedia": "Grants +12% durability, +4% damage and speed per level",
+
+  "material.hephaestusexpansion.hallowed": "Hallowed",
+  "material.hephaestusexpansion.hallowed.flavor": "A spooky alloy, has strong affinity to souls",
+  "material.hephaestusexpansion.hallowed.encyclopedia": "Killing mobs stores souls inside of the tool.\nIncreases damage by a half of a natural logarithm of stored souls.",
+
+  "material.hephaestusexpansion.kyber": "Kyber",
+  "material.hephaestusexpansion.kyber.flavor": "A light-focusing material used in lightsabers.",
+  "material.hephaestusexpansion.kyber.encyclopedia": "Deals up to 15% extra damage per level to mobs in bright places",
+
+  "material.hephaestusexpansion.metallurgium": "Metallurgium",
+  "material.hephaestusexpansion.metallurgium.flavor": "The ultimate alloy. Extremely sharp and durable.",
+  "material.hephaestusexpansion.metallurgium.encyclopedia": "Only the person that created the tool can hold it safely - others will take continuous damage holding the tool.",
+
+  "material.hephaestusexpansion.mythril": "Mythril",
+  "material.hephaestusexpansion.mythril.flavor": "... for it was wrought of pure silver to the power and strength of triple steel",
+  "material.hephaestusexpansion.mythril.encyclopedia": "Grants 1 extra upgrade slot per part.",
+
+  "material.hephaestusexpansion.orichalcum": "Orichalcum",
+  "material.hephaestusexpansion.orichalcum.flavor": "A terrarian metal, known for its incredible durability.",
+  "material.hephaestusexpansion.orichalcum.encyclopedia": "Tool takes up to 50% less damage based on a quite complicated formula.\nLower levels bias the characteristic towards lower durabilities, higher levels towards higher durabilities.",
+
+  "material.hephaestusexpansion.palladium": "Palladium",
+  "material.hephaestusexpansion.palladium.flavor": "With Palladium tools, you can brand mobs like a cowboy.",
+  "material.hephaestusexpansion.palladium.encyclopedia": "Gives a 15% chance per level of inflicting Heat on target.\nSet the entity with Heat ablaze for extra damage!",
+
+  "material.hephaestusexpansion.prometheum": "Prometheum",
+  "material.hephaestusexpansion.prometheum.flavor": "Despite the name, it's not related to fire.",
+  "material.hephaestusexpansion.prometheum.encyclopedia": "Gives a 5% chance per level of restoring durability each second.\nIf this trait repairs the tool 1200 times, the tool gains +1 damage.",
+
+  "material.hephaestusexpansion.quadrillum": "Quadrillum",
+  "material.hephaestusexpansion.quadrillum.flavor": "A material sourced from asteroids. Has a high affinity to heights.",
+  "material.hephaestusexpansion.quadrillum.encyclopedia": "Grants mining speed at higher heights, +6 per 64 blocks above 64.\nMines slower deep underground.",
+
+  "material.hephaestusexpansion.runite": "Runite",
+  "material.hephaestusexpansion.runite.flavor": "Not to be confused with Runescape.",
+  "material.hephaestusexpansion.runite.encyclopedia": "Has 10% chance per level to completely immobilize a mob for 5 seconds",
+
+  "material.hephaestusexpansion.star_platinum": "Star Platinum",
+  "material.hephaestusexpansion.star_platinum.flavor": "Surprisingly lightweight.",
+  "material.hephaestusexpansion.star_platinum.encyclopedia": "Gives +15% attack speed per level",
+
+  "material.hephaestusexpansion.stormyx": "Stormyx",
+  "material.hephaestusexpansion.stormyx.flavor": "A magical alloy with magical, thundery abilities.",
+  "material.hephaestusexpansion.stormyx.encyclopedia": "Gives a 2% chance per level of striking a targeted mob with lightning.\nChance quadrupled in thunderstorms",
+
+  "_comment7": "hephaestusexpansion Tiers",
+
+  "stat.tconstruct.harvest_tier.hephaestusexpansion.metallurgium": "Metallurgium",
+
+  "_comment8": "hephaestusexpansion Buckets and Fluids",
+  "item.hephaestusexpansion.molten_adamantite_bucket": "Molten Adamantite Bucket",
+  "fluid.hephaestusexpansion.molten_adamantite": "Molten Adamantite",
+  "block.hephaestusexpansion.molten_adamantite_fluid": "Molten Adamantite",
+
+  "item.hephaestusexpansion.molten_aquarium_bucket": "Molten Aquarium Bucket",
+  "fluid.hephaestusexpansion.molten_aquarium": "Molten Aquarium",
+  "block.hephaestusexpansion.molten_aquarium_fluid": "Molten Aquarium",
+
+  "item.hephaestusexpansion.molten_banglum_bucket": "Molten Banglum Bucket",
+  "fluid.hephaestusexpansion.molten_banglum": "Molten Banglum",
+  "block.hephaestusexpansion.molten_banglum_fluid": "Molten Banglum",
+
+  "item.hephaestusexpansion.molten_carmot_bucket": "Molten Carmot Bucket",
+  "fluid.hephaestusexpansion.molten_carmot": "Molten Carmot",
+  "block.hephaestusexpansion.molten_carmot_fluid": "Molten Carmot",
+
+  "item.hephaestusexpansion.molten_celestium_bucket": "Molten Celestium Bucket",
+  "fluid.hephaestusexpansion.molten_celestium": "Molten Celestium",
+  "block.hephaestusexpansion.molten_celestium_fluid": "Molten Celestium",
+
+  "item.hephaestusexpansion.molten_durasteel_bucket": "Molten Durasteel Bucket",
+  "fluid.hephaestusexpansion.molten_durasteel": "Molten Durasteel",
+  "block.hephaestusexpansion.molten_durasteel_fluid": "Molten Durasteel",
+
+  "item.hephaestusexpansion.molten_hallowed_bucket": "Molten Hallowed Bucket",
+  "fluid.hephaestusexpansion.molten_hallowed": "Molten Hallowed",
+  "block.hephaestusexpansion.molten_hallowed_fluid": "Molten Hallowed",
+
+  "item.hephaestusexpansion.molten_kyber_bucket": "Molten Kyber Bucket",
+  "fluid.hephaestusexpansion.molten_kyber": "Molten Kyber",
+  "block.hephaestusexpansion.molten_kyber_fluid": "Molten Kyber",
+
+  "item.hephaestusexpansion.molten_manganese_bucket": "Molten Manganese Bucket",
+  "fluid.hephaestusexpansion.molten_manganese": "Molten Manganese",
+  "block.hephaestusexpansion.molten_manganese_fluid": "Molten Manganese",
+
+  "item.hephaestusexpansion.molten_metallurgium_bucket": "Molten Metallurgium Bucket",
+  "fluid.hephaestusexpansion.molten_metallurgium": "Molten Metallurgium",
+  "block.hephaestusexpansion.molten_metallurgium_fluid": "Molten Metallurgium",
+
+  "item.hephaestusexpansion.molten_mythril_bucket": "Molten Mythril Bucket",
+  "fluid.hephaestusexpansion.molten_mythril": "Molten Mythril",
+  "block.hephaestusexpansion.molten_mythril_fluid": "Molten Mythril",
+
+  "item.hephaestusexpansion.molten_orichalcum_bucket": "Molten Orichalcum Bucket",
+  "fluid.hephaestusexpansion.molten_orichalcum": "Molten Orichalcum",
+  "block.hephaestusexpansion.molten_orichalcum_fluid": "Molten Orichalcum",
+
+  "item.hephaestusexpansion.molten_palladium_bucket": "Molten Palladium Bucket",
+  "fluid.hephaestusexpansion.molten_palladium": "Molten Palladium",
+  "block.hephaestusexpansion.molten_palladium_fluid": "Molten Palladium",
+
+  "item.hephaestusexpansion.molten_prometheum_bucket": "Molten Prometheum Bucket",
+  "fluid.hephaestusexpansion.molten_prometheum": "Molten Prometheum",
+  "block.hephaestusexpansion.molten_prometheum_fluid": "Molten Prometheum",
+
+  "item.hephaestusexpansion.molten_quadrillum_bucket": "Molten Quadrillum Bucket",
+  "fluid.hephaestusexpansion.molten_quadrillum": "Molten Quadrillum",
+  "block.hephaestusexpansion.molten_quadrillum_fluid": "Molten Quadrillum",
+
+  "item.hephaestusexpansion.molten_runite_bucket": "Molten Runite Bucket",
+  "fluid.hephaestusexpansion.molten_runite": "Molten Runite",
+  "block.hephaestusexpansion.molten_runite_fluid": "Molten Runite",
+
+  "item.hephaestusexpansion.molten_starrite_bucket": "Molten Starrite Bucket",
+  "fluid.hephaestusexpansion.molten_starrite": "Molten Starrite",
+  "block.hephaestusexpansion.molten_starrite_fluid": "Molten Starrite",
+
+  "item.hephaestusexpansion.molten_star_platinum_bucket": "Molten Star Platinum Bucket",
+  "fluid.hephaestusexpansion.molten_star_platinum": "Molten Star Platinum",
+  "block.hephaestusexpansion.molten_star_platinum_fluid": "Molten Star Platinum",
+
+  "item.hephaestusexpansion.molten_stormyx_bucket": "Molten Stormyx Bucket",
+  "fluid.hephaestusexpansion.molten_stormyx": "Molten Stormyx",
+  "block.hephaestusexpansion.molten_stormyx_fluid": "Molten Stormyx",
+
+  "item.hephaestusexpansion.molten_unobtainium_bucket": "Molten Unobtainium Bucket",
+  "fluid.hephaestusexpansion.molten_unobtainium": "Molten Unobtainium",
+  "block.hephaestusexpansion.molten_unobtainium_fluid": "Molten Unobtainium",
+
+  "comment_10": "Attributes",
+  "hephaestusexpansion.carmot_shield": "Carmot Shield",
+
+  "jade.modName.hephaestusexpansion": "hephaestusexpansion"
+}
