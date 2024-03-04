@@ -99,18 +99,14 @@ dependencies {
 	// Jade
 	modImplementation "maven.modrinth:nvQzSEkH:OPfSqApE"
 
-        modImplementation "vazkii.patchouli:Patchouli:${patchouli_version}-FABRIC"
+    // Patchouli
+	modImplementation "vazkii.patchouli:Patchouli:${patchouli_version}-FABRIC"
 
 	modImplementation annotationProcessor(include("com.github.mattidragon:configtoolkit:$configtoolkit_version"))
 	// I can't believe I have to say this in a Minecraft video, but here it comes:
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 
-	//if (project.use_fabricae_ex_nihilo.toBoolean()) {
-	//	modImplementation "maven.modrinth:j9JARqmz:vkrmmrFW"
-	//} else {
-	//	modCompileOnly "maven.modrinth:j9JARqmz:vkrmmrFW"
-	//}
-
+	// SimplySwords
 	if (project.use_simplyswords.toBoolean()) {
 		modImplementation "maven.modrinth:bK3Ubu9p:${project.ss_version}"
 		modImplementation "maven.modrinth:cloth-config:${project.cloth_version}"
@@ -119,6 +115,7 @@ dependencies {
 		modCompileOnly "maven.modrinth:cloth-config:${project.cloth_version}"
 	}
 
+	// Mythic Metals
 	if (project.use_mythic_metals.toBoolean()) {
 		modImplementation "maven.modrinth:mythicmetals:${project.mm_version}"
 		modImplementation "maven.modrinth:alloy-forgery:${project.af_version}"
@@ -127,26 +124,18 @@ dependencies {
 		modCompileOnly "maven.modrinth:alloy-forgery:${project.af_version}"
 	}
 
-	// cloth-config
+	// Ah, so Lombok needs to be included in gradle dependencies in order for it to work.
 
+	compileOnly 'org.projectlombok:lombok:1.18.30'
+	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-	//if (project.use_botania.toBoolean()) {
-	//	modImplementation("vazkii.botania:Botania:1.20.1-441-FABRIC") {
-	//		exclude group: "dev.emi", module: "emi-fabric"
-	//	}
-	//} else {
-	//	modCompileOnly("vazkii.botania:Botania:1.20.1-441-FABRIC") {
-	//		exclude group: "dev.emi", module: "emi-fabric"
-	//	}
-	//}
+	testCompileOnly 'org.projectlombok:lombok:1.18.30'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-	//if (project.use_tech_reborn.toBoolean()) {
-	//	modImplementation "curse.maven:techreborn-233564:4708962"
-	//	modImplementation "curse.maven:reborncore-237903:4708961"
-	//} else {
-	//	modCompileOnly "curse.maven:techreborn-233564:4708962"
-	//	modCompileOnly "curse.maven:reborncore-237903:4708961"
-	//}
+	// Straw Dummy is written in Kotlin wrrrr
+	modRuntimeOnly("net.fabricmc:fabric-language-kotlin:1.10.18+kotlin.1.9.22")
+	// Straw Dummy, for testing damage
+	modRuntimeOnly("maven.modrinth:straw-dummy:1.9.0")
 
 
 	modRuntimeOnly "maven.modrinth:tamago:2.2"
@@ -168,9 +157,7 @@ dependencies {
 	for (String module in port_lib_modules.split(",")) {
 		modImplementation("io.github.fabricators_of_create.Porting-Lib:$module:$port_lib_version+$minecraft_base_version")
 	}
-	// Tech Reborn
 
-	//modImplementation include("dev.isxander.yacl:yet-another-config-lib-fabric:$yacl_version")
 }
 
 processResources {
