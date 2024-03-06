@@ -106,12 +106,14 @@ dependencies {
 	// I can't believe I have to say this in a Minecraft video, but here it comes:
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 
-	// SimplySwords
-	if (project.use_simplyswords.toBoolean()) {
-		modImplementation "maven.modrinth:bK3Ubu9p:${project.ss_version}"
+	// Better Combat
+	if (project.use_bettercombat.toBoolean()) {
+		modImplementation "maven.modrinth:better-combat:${project.bettercombat_version}"
+		modImplementation "maven.modrinth:playeranimator:${project.playeranimator_version}"
 		modImplementation "maven.modrinth:cloth-config:${project.cloth_version}"
 	} else {
-		modCompileOnly "maven.modrinth:bK3Ubu9p:${project.ss_version}"
+		modCompileOnly "maven.modrinth:better-combat:${project.bettercombat_version}"
+		modCompileOnly "maven.modrinth:playeranimator:${project.playeranimator_version}"
 		modCompileOnly "maven.modrinth:cloth-config:${project.cloth_version}"
 	}
 
