@@ -5,7 +5,12 @@
       "head":        "hephaestusexpansion:item/tool/katana/blade",
       "broken_head": "hephaestusexpansion:item/tool/katana/broken_blade",
       "handle":      "hephaestusexpansion:item/tool/katana/handle",
-      "guard":     "hephaestusexpansion:item/tool/katana/guard"
+      "guard":     "hephaestusexpansion:item/tool/katana/guard",
+
+      "large_head":        "hephaestusexpansion:item/tool/katana/large/blade",
+      "large_broken_head": "hephaestusexpansion:item/tool/katana/large/broken_blade",
+      "large_handle":      "hephaestusexpansion:item/tool/katana/large/handle",
+      "large_guard":     "hephaestusexpansion:item/tool/katana/large/guard"
     },
     "modifier_roots": {
     "small": [ "hephaestusadditions:item/tool/katana/modifiers/" ],
