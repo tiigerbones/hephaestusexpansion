@@ -13,6 +13,7 @@ import slimeknights.tconstruct.tools.data.material.MaterialRenderInfoProvider;
 import slimeknights.tconstruct.tools.data.sprite.TinkerMaterialSpriteProvider;
 import slimeknights.tconstruct.tools.data.sprite.TinkerPartSpriteProvider;
 
+import static io.zackmyers.hephaestusexpansion.HephaestusExpansion.LOGGER;
 import static io.zackmyers.hephaestusexpansion.HephaestusExpansion.MOD_ID;
 
 public class HephExRegistry {
@@ -22,7 +23,7 @@ public class HephExRegistry {
     }
 
     public static void gatherData(FabricDataGenerator.Pack pack, ExistingFileHelper existingFileHelper) {
-
+        LOGGER.info("gathering data....");
 
         FabricTagProvider.BlockTagProvider blockTags = pack.addProvider(HephExBlockTagsProvider::new); // Required, despite not adding any blocks yet.
         pack.addProvider((output, registriesFuture) -> new HephExItemTagsProvider(output, registriesFuture, blockTags));
@@ -40,7 +41,6 @@ public class HephExRegistry {
         HephaestusExPartSpriteProvider morePartSprites = new HephaestusExPartSpriteProvider();
 
         pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, HephaestusExpansion.MOD_ID, partSprites));
-        pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, MOD_ID, morePartSprites));
 
         // documentation https://github.com/SlimeKnights/TinkersConstruct/wiki/Texture-Generators-%28Modders%29
 
@@ -52,12 +52,9 @@ public class HephExRegistry {
 
 
         //HephaestusExpansion materials for Tinkers' parts
-        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, partSprites));
-
 
 
         //HephaestusExpansion materials for HephaestusExpansion parts
-        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites));
         pack.addProvider((output, registriesFuture) -> new TinkerSpriteSourceGenerator(output, existingFileHelper));
 
     }

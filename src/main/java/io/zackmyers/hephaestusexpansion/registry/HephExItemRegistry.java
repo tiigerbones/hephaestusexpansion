@@ -11,6 +11,7 @@ import slimeknights.tconstruct.library.tools.part.ToolPartItem;
 import slimeknights.tconstruct.tools.item.ModifiableSwordItem;
 import slimeknights.tconstruct.tools.stats.HeadMaterialStats;
 
+import static io.zackmyers.hephaestusexpansion.HephaestusExpansion.LOGGER;
 import static io.zackmyers.hephaestusexpansion.HephaestusExpansion.MOD_ID;
 public class HephExItemRegistry {
     public static final ItemDeferredRegisterExtension ITEMS = new ItemDeferredRegisterExtension(MOD_ID);
@@ -35,6 +36,7 @@ public class HephExItemRegistry {
     */
 
     public static void register() {
+        LOGGER.info("Registering Items");
         ITEMS.register();
     }
 }

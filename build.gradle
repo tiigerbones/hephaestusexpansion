@@ -58,7 +58,7 @@ loom {
 			name "Data Generation"
 			vmArg "-Dfabric-api.datagen"
 			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
-			vmArg "-Dfabric-api.datagen.modid=hepheastusexpansion"
+			vmArg "-Dfabric-api.datagen.modid=${modid}"
 			property "porting_lib.datagen.existing_resources", file("src/main/resources").absolutePath
 			property "porting_lib.datagen.existing_mods", "tconstruct"
 			runDir "build/datagen"

@@ -26,6 +26,7 @@ public class HephaestusExpansion implements ModInitializer {
 		// Proceed with mild caution.
 		MixinExtrasBootstrap.init();
 		HephExRegistry.init();
+		LOGGER.info("Loaded Registry");
 	}
 
 	public static ResourceLocation getResource(String name) {
