@@ -1,13 +1,10 @@
 package io.zackmyers.hephaestusexpansion;
 
 import com.llamalad7.mixinextras.MixinExtrasBootstrap;
-import io.github.fabricators_of_create.porting_lib.util.TierSortingRegistry;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Tiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,11 +25,26 @@ public class HephaestusExpansion implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		MixinExtrasBootstrap.init();
+		HephExRegistry.init();
+	}
 
-		boolean isSSLoaded = FabricLoader.getInstance().isModLoaded("simplyswords");
-		boolean isMythicMetalsLoaded = FabricLoader.getInstance().isModLoaded("mythicmetals");
-		if (!(isSSLoaded || isMythicMetalsLoaded)) {
-			LOGGER.warn("Neither SimplySwords nor Mythic Metals were detected! Currently HephaestusExpansion does not add any additions to the base Hephaestus.");
-		}
+	public static ResourceLocation getResource(String name) {
+		return new ResourceLocation(MOD_ID, name);
+	}
+
+	public static String makeTranslationKey(String base, @Nullable ResourceLocation name) {
+		return net.minecraft.Util.makeDescriptionId(base, name);
+	}
+
+	public static String makeTranslationKey(String base, String name) {
+		return makeTranslationKey(base, getResource(name));
+	}
+
+	public static MutableComponent makeTranslation(String base, String name) {
+		return Component.translatable(makeTranslationKey(base, name));
+	}
+
+	public static MutableComponent makeTranslation(String base, String name, Object... arguments) {
+		return Component.translatable(makeTranslationKey(base, name), arguments);
 	}
 }

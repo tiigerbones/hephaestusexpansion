@@ -19,6 +19,9 @@
 			"io.zackmyers.hephaestusexpansion.HephaestusExpansion"
 		],
 		"client": [
+		],
+		"fabric-datagen": [
+			"io.zackmyers.hephaestusexpansion.HephaestusExpansionDataGenerator"
 		]
 	},
 	"mixins": [
