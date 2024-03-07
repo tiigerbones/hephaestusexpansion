@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hephaestusexpansion:katana_blade_sand_cast",
+      "required": false
+    }
+  ]
+}
