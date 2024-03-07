@@ -1,8 +1,0 @@
-{
-  "loader": "mantle:fluid_texture",
-  "textures": {
-    "still": "hephaestusexpansion:block/fluid/durasteel/still",
-    "flowing": "hephaestusexpansion:block/fluid/durasteel/flowing"
-  }
-}
-

@@ -1,8 +1,0 @@
-{
-  "loader": "mantle:fluid_texture",
-  "textures": {
-    "still": "hephaestusexpansion:block/fluid/quadrillum/still",
-    "flowing": "hephaestusexpansion:block/fluid/quadrillum/flowing"
-  }
-}
-

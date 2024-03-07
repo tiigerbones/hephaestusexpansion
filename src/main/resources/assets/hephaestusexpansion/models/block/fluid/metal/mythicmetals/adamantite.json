@@ -1,8 +1,0 @@
-{
-  "loader": "mantle:fluid_texture",
-  "textures": {
-    "still": "hephaestusexpansion:block/fluid/adamantite/still",
-    "flowing": "hephaestusexpansion:block/fluid/adamantite/flowing"
-  }
-}
-

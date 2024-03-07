@@ -1,8 +1,0 @@
-{
-  "loader": "mantle:fluid_texture",
-  "textures": {
-    "still": "hephaestusexpansion:block/fluid/runite/still",
-    "flowing": "hephaestusexpansion:block/fluid/runite/flowing"
-  }
-}
-
