@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hephaestusexpansion:katana",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:kataviscerator",
+      "required": false
+    }
+  ]
+}
