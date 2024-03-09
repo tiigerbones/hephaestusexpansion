@@ -13,8 +13,8 @@
       "large_guard":     "hephaestusexpansion:item/tool/katana/large/guard"
     },
     "modifier_roots": {
-    "small": [ "hephaestusadditions:item/tool/katana/modifiers/" ],
-    "large": [ "hephaestusadditions:item/tool/katana/large/modifiers/" ]
+    "small": [ "hephaestusexpansion:item/tool/katana/modifiers/" ],
+    "large": [ "hephaestusexpansion:item/tool/katana/large/modifiers/" ]
   },
   "large": true,
   "large_offset": [-2, 2],
@@ -22,9 +22,5 @@
       { "name": "handle",  "index": 1 },
       { "name": "head",    "index": 0, "broken": "broken_blade" },
       { "name": "guard", "index": 2 }
-    ],
-    "overrides": [{
-      "predicate": { "tconstruct:charging": 2 },
-      "model": "tconstruct:item/blocking/cleaver"
-    }]
+    ]
   }
