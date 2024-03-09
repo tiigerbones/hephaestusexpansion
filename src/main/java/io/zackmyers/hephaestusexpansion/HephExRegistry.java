@@ -29,34 +29,59 @@ public class HephExRegistry {
         pack.addProvider((output, registriesFuture) -> new HephExItemTagsProvider(output, registriesFuture, blockTags));
 
         pack.addProvider(HephExToolRecipeProvider::new);
+        pack.addProvider(HephExMaterialRecipeProvider::new);
         pack.addProvider(HephExStationSlotLayoutProvider::new);
+        pack.addProvider(HephExModifierRecipeProvider::new);
         pack.addProvider(HephExSmelteryRecipeProvider::new);
         pack.addProvider(HephExToolDefinitionProvider::new);
-        pack.addProvider(HephExModifierRecipeProvider::new);
-        pack.addProvider(HephExMaterialRecipeProvider::new);
+        pack.addProvider(HephExModifierProvider::new);
+
+        /*
+        we don't add materials or traits yet
+        HephExMaterialDataProvider materials = pack.addProvider(HephExMaterialDataProvider::new);
+        pack.addProvider((output, registriesFuture) -> new HephExMaterialStatsProvider(output, materials));
+        pack.addProvider((output, registriesFuture) -> new HephExMaterialTraitsProvider(output, materials));
+        */
 
         TinkerMaterialSpriteProvider materialSprites = new TinkerMaterialSpriteProvider();
+
+        /*
+        we don't add materials yet
+        HephaestusExMaterialSpriteProvider moreToolMats = new HephaestusExMaterialSpriteProvider();
+        */
+
         TinkerPartSpriteProvider partSprites = new TinkerPartSpriteProvider();
 
         HephaestusExPartSpriteProvider morePartSprites = new HephaestusExPartSpriteProvider();
 
-        pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, HephaestusExpansion.MOD_ID, partSprites));
+        pack.addProvider((output, registriesFuture) -> new MaterialRenderInfoProvider(output, materialSprites));
+        //pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, HephaestusExpansion.MOD_ID, partSprites));
 
-        // documentation https://github.com/SlimeKnights/TinkersConstruct/wiki/Texture-Generators-%28Modders%29
+        /*
+        we don't add materials yet
+        pack.addProvider((output, registriesFuture) -> new HephExMaterialRenderInfoProvider(output, moreToolMats));
+        */
+
+
+        pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, MOD_ID, morePartSprites));
+
 
         //Tinkers' materials for HephaestusExpansion parts
         pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites, materialSprites));
 
 
-        pack.addProvider((output, registriesFuture) -> new MaterialRenderInfoProvider(output, materialSprites));
 
+        /*
+        we don't add materials yet
 
-        //HephaestusExpansion materials for Tinkers' parts
+        HephaestusExpansion materials for Tinkers' parts
+        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, partSprites));
 
+        HephaestusExpansion materials for HephaestusExpansion parts
+        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper));
+         */
 
-        //HephaestusExpansion materials for HephaestusExpansion parts
         pack.addProvider((output, registriesFuture) -> new TinkerSpriteSourceGenerator(output, existingFileHelper));
-
     }
 }
 

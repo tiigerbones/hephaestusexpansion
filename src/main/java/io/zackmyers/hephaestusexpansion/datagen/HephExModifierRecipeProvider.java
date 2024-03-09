@@ -57,12 +57,14 @@ public class HephExModifierRecipeProvider extends BaseRecipeProvider {
         return HephaestusExpansion.makeTranslationKey("recipe", "modifier." + recipe);
     }
 
-//    private void buildEmbellishment(MaterialId material, ItemLike ingot, String suffix, Consumer<FinishedRecipe> consumer) {
-//        SwappableModifierRecipeBuilder.modifier(TinkerModifiers.embellishment, material.toString())
-//                .setTools(TinkerTags.Items.EMBELLISHMENT_METAL)
-//                .addInput(ingot).addInput(ingot).addInput(ingot)
-//                .save(consumer, wrap(TinkerModifiers.embellishment.getId(), "tools/modifiers/slotless/", suffix));
-//    }
+/*
+    private void buildEmbellishment(MaterialId material, ItemLike ingot, String suffix, Consumer<FinishedRecipe> consumer) {
+        SwappableModifierRecipeBuilder.modifier(TinkerModifiers.embellishment, material.toString())
+                .setTools(TinkerTags.Items.EMBELLISHMENT_METAL)
+                .addInput(ingot).addInput(ingot).addInput(ingot)
+                .save(consumer, wrap(TinkerModifiers.embellishment.getId(), "tools/modifiers/slotless/", suffix));
+    }
+*/
 
     private void buildEmbellishment(MaterialVariantId material, String tag, Consumer<FinishedRecipe> consumer) {
         Ingredient ingot = Ingredient.of(getItemTag("c", tag));

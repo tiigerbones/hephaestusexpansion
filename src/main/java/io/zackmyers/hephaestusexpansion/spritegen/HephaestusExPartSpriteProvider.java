@@ -15,7 +15,10 @@ public class HephaestusExPartSpriteProvider extends AbstractPartSpriteProvider {
     }
 
     @Override
-    protected void addAllSpites() { // sic
-        buildTool("katana").addBreakableHead("blade").addHandle("guard").addHandle("handle");
+    protected void addAllSpites() {
+        // KATANA
+        buildTool("katana").withLarge().addBreakableHead("blade").withLarge().addHandle("guard").withLarge().addHandle("handle");
+        // KATAVISCERATOR
+        buildTool("kataviscerator").withLarge().addBreakableHead("blade").withLarge().addHandle("guard").withLarge().addHandle("handle");
     }
 }

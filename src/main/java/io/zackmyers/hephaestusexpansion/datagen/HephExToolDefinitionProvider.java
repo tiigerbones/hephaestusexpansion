@@ -20,6 +20,10 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
         super(output, HephaestusExpansion.MOD_ID);
     }
 
+    /*
+    documentation https://github.com/Alpha-s-Stuff/TinkersConstruct/blob/1.20.1/src/main/java/slimeknights/tconstruct/tools/data/ToolDefinitionDataProvider.java
+    */
+
     @Override
     protected void addToolDefinitions() {
         IHarvestLogic swordLogic = ModifiedHarvestLogic
@@ -34,14 +38,33 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .part(toolHandle)
                 .part(toolHandle)
                 // stats
-                .stat(ToolStats.ATTACK_DAMAGE, 3f)
-                .stat(ToolStats.ATTACK_SPEED, 1.6f)
-                .multiplier(ToolStats.ATTACK_DAMAGE, 1.6f)
+                .stat(ToolStats.ATTACK_DAMAGE, 3.5f)
+                .stat(ToolStats.ATTACK_SPEED, 1.4f)
                 .multiplier(ToolStats.MINING_SPEED, 0.4f)
-                .multiplier(ToolStats.DURABILITY, 1.7f)
-                .largeToolStartingSlots()
+                .multiplier(ToolStats.DURABILITY, 1.3f)
+                .smallToolStartingSlots()
                 // traits
                 .trait(TinkerModifiers.severing, 1)
+                // behavior
+                .action(ToolActions.SWORD_DIG)
+                .harvestLogic(swordLogic)
+                .attack(new SweepWeaponAttack(2));
+
+        // Kataviscerator
+        define(ToolDefinitions.KATAVISCERATOR)
+                // parts
+                .part(HephExItemRegistry.katavisceratorBlade)
+                .part(toughHandle)
+                .part(toughHandle)
+                // stats
+                .stat(ToolStats.ATTACK_DAMAGE, 3.5f)
+                .stat(ToolStats.ATTACK_SPEED, 1.27f)
+                .multiplier(ToolStats.ATTACK_DAMAGE, 1.2f)
+                .multiplier(ToolStats.MINING_SPEED, 0.4f)
+                .multiplier(ToolStats.DURABILITY, 1.85f)
+                .largeToolStartingSlots()
+                // traits
+                .trait(TinkerModifiers.severing, 2)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
                 .harvestLogic(swordLogic)

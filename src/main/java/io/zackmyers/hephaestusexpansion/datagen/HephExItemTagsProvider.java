@@ -23,13 +23,19 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider arg) {
+        // Katana
         addToolTags(HephExItemRegistry.katana, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        // KATAVISCERATOR
+        addToolTags(HephExItemRegistry.kataviscerator, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
         Consumer<CastItemObject> addCast = cast -> {
             this.tag(GOLD_CASTS).addOptional(BuiltInRegistries.ITEM.getKey(cast.get()));
             this.tag(SAND_CASTS).addOptional(BuiltInRegistries.ITEM.getKey(cast.getSand()));
             this.tag(RED_SAND_CASTS).addOptional(BuiltInRegistries.ITEM.getKey(cast.getRedSand()));
         };
+        // Katana
         addCast.accept(HephExItemRegistry.katanaBladeCast);
+        // Kataviscerator
+        addCast.accept(HephExItemRegistry.katavisceratorBladeCast);
     }
 
     @SafeVarargs

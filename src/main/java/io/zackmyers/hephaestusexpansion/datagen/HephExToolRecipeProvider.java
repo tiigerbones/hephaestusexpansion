@@ -19,6 +19,7 @@ public class HephExToolRecipeProvider extends BaseRecipeProvider implements IMat
         String folder = "tools/building/";
 
         toolBuilding(consumer, HephExItemRegistry.katana, folder);
+        toolBuilding(consumer, HephExItemRegistry.kataviscerator, folder);
 
         this.addPartRecipes(consumer);
     }
@@ -28,6 +29,7 @@ public class HephExToolRecipeProvider extends BaseRecipeProvider implements IMat
         String castFolder = "smeltery/casts/";
 
         partRecipes(consumer, HephExItemRegistry.katanaBlade, HephExItemRegistry.katanaBladeCast, 2, partFolder, castFolder);
+        partRecipes(consumer, HephExItemRegistry.katavisceratorBlade, HephExItemRegistry.katavisceratorBladeCast, 2, partFolder, castFolder);
     }
 
     @Override
