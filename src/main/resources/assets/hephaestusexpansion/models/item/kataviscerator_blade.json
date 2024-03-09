@@ -1,0 +1,8 @@
+{
+  "loader": "tconstruct:material",
+  "parent": "forge:item/default",
+  "textures": {
+    "texture": "hephaestusexpansion:item/tool/kataviscerator/blade"
+  },
+  "offset": [-2, 3]
+}
