@@ -3,18 +3,26 @@
 
   "item.hephaestusexpansion.katana": "Katana",
   "item.hephaestusexpansion.katana_blade": "Katana Blade",
-
+  
+  "item.hephaestusexpansion.kataviscerator": "Kataviscerator",
+  "item.hephaestusexpansion.kataviscerator_bladee": "Kataviscerator Blade",
   "_comment2": "hephaestusexpansion Tool Descriptions",
 
   "item.hephaestusexpansion.katana.description": "A finely-crafted katana with a razor-sharp blade, designed for swift and precise strikes in the heat of battle",
+  "item.hephaestusexpansion.kataviscerator.description": "With jagged edges for ruthless efficiency, the Kataviscerator katana is crafted to swiftly shred through foes, leaving chaos in its wake on the battlefield",
 
   "_comment3": "hephaestusexpansion Modifiers",
 
   "_comment4": "HephaestusTools Patterns",
-  "pattern.hephaestusexpansion.katana_blade": "Katana blade",
-  "item.hephaestusexpansion.katana_blade_cast": "Katana blade Cast",
-  "item.hephaestusexpansion.katana_blade_sand_cast": "Katana blade Sand Cast",
-  "item.hephaestusexpansion.katana_blade_red_sand_cast": "Katana blade Red Sand Cast",
+  "pattern.hephaestusexpansion.katana_blade": "Katana Blade",
+  "item.hephaestusexpansion.katana_blade_cast": "Katana Blade Cast",
+  "item.hephaestusexpansion.katana_blade_sand_cast": "Katana Blade Sand Cast",
+  "item.hephaestusexpansion.katana_blade_red_sand_cast": "Katana Blade Red Sand Cast",
+
+  "pattern.hephaestusexpansion.kataviscerator_blade": "Kataviscerator Blade",
+  "item.hephaestusexpansion.kataviscerator_blade_cast": "Kataviscerator Blade Cast",
+  "item.hephaestusexpansion.kataviscerator_blade_sand_cast": "Kataviscerator Blade Sand Cast",
+  "item.hephaestusexpansion.kataviscerator_blade_red_sand_cast": "Kataviscerator Blade Red Sand Cast",
 
   "_comment5": "HephaestusTools Items",
 
