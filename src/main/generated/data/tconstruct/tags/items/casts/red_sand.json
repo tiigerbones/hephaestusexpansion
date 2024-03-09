@@ -8,6 +8,10 @@
     {
       "id": "hephaestusexpansion:kataviscerator_blade_red_sand_cast",
       "required": false
+    },
+    {
+      "id": "hephaestusexpansion:spear_head_red_sand_cast",
+      "required": false
     }
   ]
 }

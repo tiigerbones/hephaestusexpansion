@@ -70,6 +70,26 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .harvestLogic(swordLogic)
                 .attack(new SweepWeaponAttack(2));
 
+        // SPEAR
+        define(ToolDefinitions.SPEAR)
+                // parts
+                .part(HephExItemRegistry.spearHead)
+                .part(toolHandle)
+                .part(toolHandle)
+                .part(toolBinding)
+                // stats
+                .stat(ToolStats.ATTACK_DAMAGE, 3.2f)
+                .stat(ToolStats.ATTACK_SPEED, 1.7f)
+                .multiplier(ToolStats.MINING_SPEED, 0.25f)
+                .multiplier(ToolStats.DURABILITY, 1.3f)
+                .largeToolStartingSlots()
+                // traits
+                .trait(TinkerModifiers.piercing, 1)
+                // behavior
+                .action(ToolActions.SWORD_DIG)
+                .harvestLogic(swordLogic)
+                .attack(new SweepWeaponAttack(2));
+
     }
 
     @Override

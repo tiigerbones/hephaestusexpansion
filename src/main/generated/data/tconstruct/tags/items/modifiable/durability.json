@@ -8,6 +8,10 @@
     {
       "id": "hephaestusexpansion:kataviscerator",
       "required": false
+    },
+    {
+      "id": "hephaestusexpansion:spear",
+      "required": false
     }
   ]
 }

@@ -1,9 +1,9 @@
-// 1.20.1	2024-03-09T05:19:43.9052939	HephaestusExpansion/HephaestusPlus Item Tags
-87f7b3111b0ed119c4f1a41856ff062dcf030e9b data\tconstruct\tags\items\modifiable\held.json
-1cfa8abba7c9d1df7eeac8ae12d276319b5ef114 data\tconstruct\tags\items\casts\red_sand.json
-87f7b3111b0ed119c4f1a41856ff062dcf030e9b data\tconstruct\tags\items\modifiable\melee\sword.json
-a40ba2c5740a4ce707d271ff4f1c6f3337f503e8 data\tconstruct\tags\items\casts\gold.json
-87f7b3111b0ed119c4f1a41856ff062dcf030e9b data\tconstruct\tags\items\modifiable\multipart.json
-87f7b3111b0ed119c4f1a41856ff062dcf030e9b data\tconstruct\tags\items\modifiable\melee.json
-87f7b3111b0ed119c4f1a41856ff062dcf030e9b data\tconstruct\tags\items\modifiable\durability.json
-2d8e0e36d39651c24fe6fce60b7b9aea8a3f2c72 data\tconstruct\tags\items\casts\sand.json
+// 1.20.1	2024-03-09T16:07:07.6110818	HephaestusExpansion/HephaestusPlus Item Tags
+48e38b6d7297091cc71d9e299f15227ce2cd2c55 data\tconstruct\tags\items\modifiable\held.json
+2524bfe1983f455aee0b3627c4756c42cd2cd25d data\tconstruct\tags\items\casts\red_sand.json
+48e38b6d7297091cc71d9e299f15227ce2cd2c55 data\tconstruct\tags\items\modifiable\melee\sword.json
+48e38b6d7297091cc71d9e299f15227ce2cd2c55 data\tconstruct\tags\items\modifiable\multipart.json
+48e38b6d7297091cc71d9e299f15227ce2cd2c55 data\tconstruct\tags\items\modifiable\melee.json
+8e215b6bceee1c1202093c409b08d508cc314721 data\tconstruct\tags\items\casts\gold.json
+48e38b6d7297091cc71d9e299f15227ce2cd2c55 data\tconstruct\tags\items\modifiable\durability.json
+11773d01d2c3609b193bb263cff27d5f28eb2e63 data\tconstruct\tags\items\casts\sand.json

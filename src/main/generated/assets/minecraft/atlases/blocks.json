@@ -627,6 +627,14 @@
     {
       "type": "minecraft:single",
       "resource": "tconstruct:gui/tinker_pattern/kataviscerator_blade"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "hephaestusexpansion:gui/tinker_pattern/spear_head"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "tconstruct:gui/tinker_pattern/spear_head"
     }
   ]
 }

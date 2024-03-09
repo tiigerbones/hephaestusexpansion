@@ -11,6 +11,10 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
         super(output);
     }
 
+    /*
+    documentation: https://github.com/Alpha-s-Stuff/TinkersConstruct/blob/1.20.1/src/main/java/slimeknights/tconstruct/tools/data/StationSlotLayoutProvider.java
+     */
+
     @Override
     protected void addLayouts() {
         Ingredient modifiable = Ingredient.of(TinkerTags.Items.MODIFIABLE);
@@ -28,6 +32,15 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
                 .addInputItem(HephExItemRegistry.katavisceratorBlade, 53, 22)
                 .addInputItem(TinkerToolParts.toughHandle, 15, 60)
                 .addInputItem(TinkerToolParts.toughHandle, 33, 42)
+                .build();
+
+        //  KATAVISCERATOR
+        defineModifiable(HephExItemRegistry.spear)
+                .sortIndex(SORT_WEAPON + SORT_LARGE)
+                .addInputItem(HephExItemRegistry.spearHead, 45, 26)
+                .addInputItem(TinkerToolParts.toolHandle, 7, 62)
+                .addInputItem(TinkerToolParts.toolHandle, 25, 46)
+                .addInputItem(TinkerToolParts.toolBinding, 45, 46)
                 .build();
     }
 

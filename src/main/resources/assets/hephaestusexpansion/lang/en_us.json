@@ -5,11 +5,16 @@
   "item.hephaestusexpansion.katana_blade": "Katana Blade",
   
   "item.hephaestusexpansion.kataviscerator": "Kataviscerator",
-  "item.hephaestusexpansion.kataviscerator_bladee": "Kataviscerator Blade",
+  "item.hephaestusexpansion.kataviscerator_blade": "Kataviscerator Blade",
+  
+  "item.hephaestusexpansion.spear": "Spear",
+  "item.hephaestusexpansion.spear_head": "Spear Head",
+  
   "_comment2": "hephaestusexpansion Tool Descriptions",
 
   "item.hephaestusexpansion.katana.description": "A finely-crafted katana with a razor-sharp blade, designed for swift and precise strikes in the heat of battle",
   "item.hephaestusexpansion.kataviscerator.description": "With jagged edges for ruthless efficiency, the Kataviscerator katana is crafted to swiftly shred through foes, leaving chaos in its wake on the battlefield",
+  "item.hephaestusexpansion.spear.description": "A straightforward and reliable weapon, boasts a balanced design, perfect for precise thrusts and effective combat in any encounter",
 
   "_comment3": "hephaestusexpansion Modifiers",
 
@@ -23,6 +28,11 @@
   "item.hephaestusexpansion.kataviscerator_blade_cast": "Kataviscerator Blade Cast",
   "item.hephaestusexpansion.kataviscerator_blade_sand_cast": "Kataviscerator Blade Sand Cast",
   "item.hephaestusexpansion.kataviscerator_blade_red_sand_cast": "Kataviscerator Blade Red Sand Cast",
+
+  "pattern.hephaestusexpansion.spear_head": "Spear Head",
+  "item.hephaestusexpansion.spear_head_cast": "Spear Head Cast",
+  "item.hephaestusexpansion.spear_head_sand_cast": "Spear Head Sand Cast",
+  "item.hephaestusexpansion.spear_head_red_sand_cast": "Spear Head Red Sand Cast",
 
   "_comment5": "HephaestusTools Items",
 

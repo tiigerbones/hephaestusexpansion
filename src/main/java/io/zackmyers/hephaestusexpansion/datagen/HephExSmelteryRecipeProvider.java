@@ -18,7 +18,7 @@ public class HephExSmelteryRecipeProvider extends BaseRecipeProvider implements 
 
     @Override
     public String getName() {
-        return "HephaestusPlus Smeltery Recipes";
+        return "HephaestusExpansion Smeltery Recipes";
     }
 
     private void addCastingRecipes(Consumer<FinishedRecipe> consumer) {

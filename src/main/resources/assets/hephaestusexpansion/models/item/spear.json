@@ -1,0 +1,29 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+      "head":        "hephaestusexpansion:item/tool/spear/head",
+      "broken_head": "hephaestusexpansion:item/tool/spear/broken_head",
+      "binding":     "hephaestusexpansion:item/tool/spear/binding",
+      "handle":      "hephaestusexpansion:item/tool/spear/handle",
+      "guard":     "hephaestusexpansion:item/tool/spear/guard",
+
+      "large_head":        "hephaestusexpansion:item/tool/spear/large/head",
+      "large_broken_head": "hephaestusexpansion:item/tool/spear/large/broken_head",
+      "large_handle":      "hephaestusexpansion:item/tool/spear/large/handle",
+      "large_binding":     "hephaestusexpansion:item/tool/spear/large/binding",
+      "large_guard":     "hephaestusexpansion:item/tool/spear/large/guard"
+    },
+    "modifier_roots": {
+    "small": [ "hephaestusexpansion:item/tool/spear/modifiers/" ],
+    "large": [ "hephaestusexpansion:item/tool/spear/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [-2, 2],
+    "parts": [
+      { "name": "handle",  "index": 1 },
+      { "name": "head",    "index": 0, "broken": "broken_head" },
+      { "name": "binding", "index": 2 },
+      { "name": "guard", "index": 3 }
+    ]
+  }

@@ -64,6 +64,46 @@
     {
       "path": "hephaestusexpansion:item/tool/kataviscerator/large/blade",
       "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/broken_head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/large/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/large/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/large/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/large/broken_head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/spear/large/handle",
+      "statType": "tconstruct:handle"
     }
   ]
 }
