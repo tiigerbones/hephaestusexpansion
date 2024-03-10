@@ -614,6 +614,14 @@
     },
     {
       "type": "minecraft:single",
+      "resource": "hephaestusexpansion:gui/tinker_pattern/halberd_head"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "tconstruct:gui/tinker_pattern/halberd_head"
+    },
+    {
+      "type": "minecraft:single",
       "resource": "hephaestusexpansion:gui/tinker_pattern/katana_blade"
     },
     {

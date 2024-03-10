@@ -12,6 +12,7 @@ import slimeknights.tconstruct.library.tools.definition.harvest.IHarvestLogic;
 import slimeknights.tconstruct.library.tools.definition.harvest.ModifiedHarvestLogic;
 import slimeknights.tconstruct.library.tools.definition.weapon.SweepWeaponAttack;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
+import slimeknights.tconstruct.tools.TinkerToolActions;
 import slimeknights.tconstruct.tools.TinkerModifiers;
 
 import static slimeknights.tconstruct.tools.TinkerToolParts.*;
@@ -87,6 +88,28 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .trait(TinkerModifiers.piercing, 1)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
+                .harvestLogic(swordLogic)
+                .attack(new SweepWeaponAttack(2));
+
+        // HALBERD
+        define(ToolDefinitions.HALBERD)
+                // parts
+                .part(HephExItemRegistry.halberdHead)
+                .part(toughHandle)
+                .part(toolBinding)
+                .part(toughHandle)
+                // stats
+                .stat(ToolStats.ATTACK_DAMAGE, 5f)
+                .stat(ToolStats.ATTACK_SPEED, 0.85f)
+                .multiplier(ToolStats.ATTACK_DAMAGE, 1.75f)
+                .multiplier(ToolStats.MINING_SPEED, 0.32f)
+                .multiplier(ToolStats.DURABILITY, 4.40f)
+                .largeToolStartingSlots()
+                // traits
+                .trait(TinkerModifiers.withered, 1)
+                // behavior
+                .action(ToolActions.SWORD_DIG)
+                .action(TinkerToolActions.SHIELD_DISABLE)
                 .harvestLogic(swordLogic)
                 .attack(new SweepWeaponAttack(2));
 

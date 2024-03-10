@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-10T01:02:25.9250349	HephaestusExpansion/Tinkers' Construct Material Render Info Provider
+// 1.20.1	2024-03-10T02:42:54.7891954	HephaestusExpansion/Tinkers' Construct Material Render Info Provider
 8339458927f7ab206ceaffaa2979e10c0c3145de assets\tconstruct\tinkering\materials\blood.json
 aec4428505cab636609991075e75dac85f68d0cc assets\tconstruct\tinkering\materials\bamboo.json
 75037538d7c4218adde664f90ab91d2fb6c4aa0f assets\tconstruct\tinkering\materials\flint\basalt.json
@@ -10,8 +10,8 @@ a75faf676ec091629963d55d8a55ea3654ddf347 assets\tconstruct\tinkering\materials\w
 648c4f5c0f402f42f684e8b1bb8d3011f10f6210 assets\tconstruct\tinkering\materials\chain.json
 1ce8d2ae141645f45311e7778086b296a2bc9cf5 assets\tconstruct\tinkering\materials\rock\stone.json
 5fa2e4cd20e926612b62e0e8ae393cb9af5efea9 assets\tconstruct\tinkering\materials\string.json
-c6f7e0342e17cd8505ebf8280f4d7d7a18cebf3c assets\tconstruct\tinkering\materials\slimewood\greenheart.json
 b59a79cfe04454d9670829bcdba40cedcebb12a6 assets\tconstruct\tinkering\materials\slimewood.json
+c6f7e0342e17cd8505ebf8280f4d7d7a18cebf3c assets\tconstruct\tinkering\materials\slimewood\greenheart.json
 9e455e2bd4f85a729fea17a20fba189bf70a55c4 assets\tconstruct\tinkering\materials\rock.json
 c66dd692e5fbea829de6e49cef22d43319f89529 assets\tconstruct\tinkering\materials\invar.json
 4ad9d075783bc8527ed1b6ceba23a2730fe6ea77 assets\tconstruct\tinkering\materials\necronium.json
@@ -37,8 +37,8 @@ aea72647845c519c0be8382d7e2cab1cde58c013 assets\tconstruct\tinkering\materials\n
 1afd6ff3cc97877d6dda35846661fa468433becc assets\tconstruct\tinkering\materials\steel.json
 19c4194dc4e303bba2443002ee0000f57c85bfab assets\tconstruct\tinkering\materials\chorus.json
 ab10c2a2a65c46c9d1df52e8b2bca93c839a798c assets\tconstruct\tinkering\materials\tungsten.json
-81c2007e55ec3c7658772248e5f2a9eb9cd0ffc4 assets\tconstruct\tinkering\materials\enderslime.json
 6d0ef444e1865c17d81c7f20941d7017ca26f9e5 assets\tconstruct\tinkering\materials\flint.json
+81c2007e55ec3c7658772248e5f2a9eb9cd0ffc4 assets\tconstruct\tinkering\materials\enderslime.json
 97ffb937f8c1d18e3ad052d53ad7f22d35f21aeb assets\tconstruct\tinkering\materials\rotten_flesh.json
 6d39e38c0332c0ee4dabc482ebfeb0d7d0186b98 assets\tconstruct\tinkering\materials\cobalt.json
 4f3300ecae0bd1e7a08c68755804782de3c4b379 assets\tconstruct\tinkering\materials\wood\birch.json
@@ -56,8 +56,8 @@ d56d3cc19bd402591dfe58724356c5043a29d27e assets\tconstruct\tinkering\materials\e
 f56f47787d2419a7509e6d3e608a02a373ccf05d assets\tconstruct\tinkering\materials\rock\granite.json
 abbe9ae6c972b5f0e8eeb79f3d08587182aa2588 assets\tconstruct\tinkering\materials\ui_render\large.json
 9260c8c10e850b4f17b984815c3b7d5297be1115 assets\tconstruct\tinkering\materials\ancient_hide.json
-a66c1f8e57f64f3c8debb11865e1f08f8ae46e0f assets\tconstruct\tinkering\materials\earthslime.json
 68a5d0a283888861f904c34f0526187eb85cadb1 assets\tconstruct\tinkering\materials\brass.json
+a66c1f8e57f64f3c8debb11865e1f08f8ae46e0f assets\tconstruct\tinkering\materials\earthslime.json
 20c7486217679cc31478b9721b04c0510954d12d assets\tconstruct\tinkering\materials\scorched_stone.json
 ba6e2500392dc2729e0b05866036b11c77b34ca0 assets\tconstruct\tinkering\materials\amethyst_bronze.json
 dabc2b093afb713f153a044ba5bb5d6a2862c4f0 assets\tconstruct\tinkering\materials\copper.json
@@ -65,13 +65,13 @@ f47c005fa88d9ff4b5073023701e2332b8ea4213 assets\tconstruct\tinkering\materials\i
 326e485a790fc4627b9d048fc0e223bc8e05c2f9 assets\tconstruct\tinkering\materials\skyslime_vine.json
 b1151a8c0184739225cddc5adc943eccb13def67 assets\tconstruct\tinkering\materials\bronze.json
 9aa78aa51e79423671559947aed967294d13d31d assets\tconstruct\tinkering\materials\slimewood\bloodshroom.json
-107703b8b74bc63055e2339af1478b0ed0e18b99 assets\tconstruct\tinkering\materials\wood\dark_oak.json
 85c9b508018d6df01a1708d2b931643688c1c736 assets\tconstruct\tinkering\materials\gold.json
+107703b8b74bc63055e2339af1478b0ed0e18b99 assets\tconstruct\tinkering\materials\wood\dark_oak.json
 d9dd5ecdbb6333623933617807c4662333071988 assets\tconstruct\tinkering\materials\hepatizon.json
 93ae97ee4d70e1e9e79148aff3a2fe9b64a267d2 assets\tconstruct\tinkering\materials\platinum.json
-99e39dd0596a5d94fb73d9d722f6b3ab9af5ffcc assets\tconstruct\tinkering\materials\ender_pearl.json
 f94ad688cc9bde3d4f6b578e46f13d302d366eb4 assets\tconstruct\tinkering\materials\whitestone\end.json
 5dc60b075191267a0560164cb820db22f9e0cb1d assets\tconstruct\tinkering\materials\rock\deepslate.json
+99e39dd0596a5d94fb73d9d722f6b3ab9af5ffcc assets\tconstruct\tinkering\materials\ender_pearl.json
 3bf6cf42be7f60dfcb3d18758db2f41f48a31da7 assets\tconstruct\tinkering\materials\wood\warped.json
 357c9cf52d2d3ee9ebebc94440285503b810182c assets\tconstruct\tinkering\materials\constantan.json
 7b3847561b9ae29eba59700e9b66b30b4aa1045d assets\tconstruct\tinkering\materials\uranium.json

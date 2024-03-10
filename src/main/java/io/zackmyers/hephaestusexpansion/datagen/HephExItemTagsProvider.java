@@ -29,6 +29,10 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         addToolTags(HephExItemRegistry.kataviscerator, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
         // SPEAR
         addToolTags(HephExItemRegistry.spear, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        // HALBERD
+        addToolTags(HephExItemRegistry.halberd, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+
+
         Consumer<CastItemObject> addCast = cast -> {
             this.tag(GOLD_CASTS).addOptional(BuiltInRegistries.ITEM.getKey(cast.get()));
             this.tag(SAND_CASTS).addOptional(BuiltInRegistries.ITEM.getKey(cast.getSand()));
@@ -40,6 +44,8 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         addCast.accept(HephExItemRegistry.katavisceratorBladeCast);
         // Spear
         addCast.accept(HephExItemRegistry.spearHeadCast);
+        // Halberd
+        addCast.accept(HephExItemRegistry.halberdHeadCast);
     }
 
     @SafeVarargs

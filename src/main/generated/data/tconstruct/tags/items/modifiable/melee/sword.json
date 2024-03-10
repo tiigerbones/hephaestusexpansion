@@ -12,6 +12,10 @@
     {
       "id": "hephaestusexpansion:spear",
       "required": false
+    },
+    {
+      "id": "hephaestusexpansion:halberd",
+      "required": false
     }
   ]
 }
