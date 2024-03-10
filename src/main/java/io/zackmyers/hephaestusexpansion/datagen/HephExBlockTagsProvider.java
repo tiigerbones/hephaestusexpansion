@@ -17,6 +17,6 @@ public class HephExBlockTagsProvider extends FabricTagProvider.BlockTagProvider 
 
     @Override
     public String getName() {
-        return "HephaestusPlus Block Tags";
+        return "HephaestusExpansion Block Tags";
     }
 }

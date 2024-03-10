@@ -104,6 +104,54 @@
     {
       "path": "hephaestusexpansion:item/tool/spear/large/handle",
       "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/broken_head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/accessory",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/large/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/large/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/large/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/large/broken_head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/halberd/large/accessory",
+      "statType": "tconstruct:handle"
     }
   ]
 }

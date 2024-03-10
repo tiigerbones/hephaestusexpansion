@@ -7,12 +7,14 @@
     "handle":      "hephaestusexpansion:item/tool/halberd/handle",
     "binding":     "hephaestusexpansion:item/tool/halberd/binding",
     "accessory":   "hephaestusexpansion:item/tool/halberd/accessory",
+    "guard":     "hephaestusexpansion:item/tool/halberd/guard",
     
     "large_head":        "hephaestusexpansion:item/tool/halberd/large/head",
     "large_broken_head": "hephaestusexpansion:item/tool/halberd/large/broken_head",
     "large_handle":      "hephaestusexpansion:item/tool/halberd/large/handle",
     "large_binding":     "hephaestusexpansion:item/tool/halberd/large/binding",
-    "large_accessory":   "hephaestusexpansion:item/tool/halberd/large/accessory"
+    "large_accessory":   "hephaestusexpansion:item/tool/halberd/large/accessory",
+    "large_guard":     "hephaestusexpansion:item/tool/halberd/large/guard"
   },
   "modifier_roots": {
     "small": [ "hephaestusexpansion:item/tool/halberd/modifiers/" ],
@@ -21,13 +23,10 @@
   "large": true,
   "large_offset": [-2, 2],
   "parts": [
-    { "name": "accessory", "index": 3 },
-    { "name": "handle",    "index": 1 },
-    { "name": "head",      "index": 0, "broken": "broken_head" },
-    { "name": "binding",   "index": 2 }
-  ],
-  "overrides": [{
-    "predicate": { "tconstruct:charging": 2 },
-    "model": "tconstruct:item/blocking/scythe"
-  }]
+    { "name": "handle",  "index": 1 },
+    { "name": "guard", "index": 2 },
+    { "name": "head",    "index": 0, "broken": "broken_head" },
+    { "name": "binding", "index": 3 },
+    { "name": "accessory", "index": 4 }
+  ]
 }

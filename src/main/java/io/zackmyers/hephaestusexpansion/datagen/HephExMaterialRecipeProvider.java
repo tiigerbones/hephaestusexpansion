@@ -24,6 +24,6 @@ public class HephExMaterialRecipeProvider extends BaseRecipeProvider implements 
 
     @Override
     public String getName() {
-        return "HephaestusPlus Material Recipes";
+        return "HephaestusExpansion Material Recipes";
     }
 }

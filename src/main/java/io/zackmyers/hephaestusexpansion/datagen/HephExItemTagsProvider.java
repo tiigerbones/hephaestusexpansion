@@ -58,7 +58,7 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     public String getName() {
-        return "HephaestusPlus Item Tags";
+        return "HephaestusExpansion Item Tags";
     }
 
 }

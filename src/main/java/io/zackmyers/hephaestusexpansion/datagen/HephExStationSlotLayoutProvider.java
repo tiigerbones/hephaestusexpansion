@@ -48,8 +48,8 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
                 .sortIndex(SORT_WEAPON + SORT_LARGE)
                 .addInputItem(HephExItemRegistry.halberdHead, 35, 20)
                 .addInputItem(TinkerToolParts.toughHandle, 12, 55)
-                .addInputItem(TinkerToolParts.toolBinding, 50, 40)
                 .addInputItem(TinkerToolParts.toughHandle, 30, 40)
+                .addInputItem(TinkerToolParts.toolBinding, 50, 40)
                 .build();
     }
 

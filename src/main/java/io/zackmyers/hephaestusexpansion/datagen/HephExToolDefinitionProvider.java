@@ -96,8 +96,8 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 // parts
                 .part(HephExItemRegistry.halberdHead)
                 .part(toughHandle)
-                .part(toolBinding)
                 .part(toughHandle)
+                .part(toolBinding)
                 // stats
                 .stat(ToolStats.ATTACK_DAMAGE, 5f)
                 .stat(ToolStats.ATTACK_SPEED, 0.85f)
@@ -109,7 +109,6 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .trait(TinkerModifiers.withered, 1)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
-                .action(TinkerToolActions.SHIELD_DISABLE)
                 .harvestLogic(swordLogic)
                 .attack(new SweepWeaponAttack(2));
 
