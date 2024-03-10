@@ -9,12 +9,16 @@
   
   "item.hephaestusexpansion.spear": "Spear",
   "item.hephaestusexpansion.spear_head": "Spear Head",
+
+  "item.hephaestusexpansion.halberd": "Halberd",
+  "item.hephaestusexpansion.halberd_head": "Halberd Head",
   
   "_comment2": "hephaestusexpansion Tool Descriptions",
 
   "item.hephaestusexpansion.katana.description": "A finely-crafted katana with a razor-sharp blade, designed for swift and precise strikes in the heat of battle",
   "item.hephaestusexpansion.kataviscerator.description": "With jagged edges for ruthless efficiency, the Kataviscerator katana is crafted to swiftly shred through foes, leaving chaos in its wake on the battlefield",
   "item.hephaestusexpansion.spear.description": "A straightforward and reliable weapon, boasts a balanced design, perfect for precise thrusts and effective combat in any encounter",
+  "item.hephaestusexpansion.halberd.description": "A stalwart polearm, combines a razor-sharp axe blade and a piercing spear point for versatile and formidable strikes",
 
   "_comment3": "hephaestusexpansion Modifiers",
 
@@ -33,6 +37,11 @@
   "item.hephaestusexpansion.spear_head_cast": "Spear Head Cast",
   "item.hephaestusexpansion.spear_head_sand_cast": "Spear Head Sand Cast",
   "item.hephaestusexpansion.spear_head_red_sand_cast": "Spear Head Red Sand Cast",
+
+  "pattern.hephaestusexpansion.halberd_head": "Halberd Head",
+  "item.hephaestusexpansion.halberd_head_cast": "Halberd Head Cast",
+  "item.hephaestusexpansion.halberd_head_sand_cast": "Halberd Head Sand Cast",
+  "item.hephaestusexpansion.halberd_head_red_sand_cast": "Halberd Head Red Sand Cast",
 
   "_comment5": "HephaestusTools Items",
 
