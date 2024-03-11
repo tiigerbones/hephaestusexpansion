@@ -126,10 +126,6 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "hephaestusexpansion:item/tool/halberd/accessory",
-      "statType": "tconstruct:handle"
-    },
-    {
       "path": "hephaestusexpansion:item/tool/halberd/large/head",
       "statType": "tconstruct:head"
     },
@@ -147,10 +143,6 @@
     },
     {
       "path": "hephaestusexpansion:item/tool/halberd/large/handle",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/halberd/large/accessory",
       "statType": "tconstruct:handle"
     }
   ]
