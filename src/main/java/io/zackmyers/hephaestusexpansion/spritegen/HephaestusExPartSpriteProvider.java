@@ -23,6 +23,6 @@ public class HephaestusExPartSpriteProvider extends AbstractPartSpriteProvider {
         // SPEAR
         buildTool("spear").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addBinding("binding").withLarge().addHandle("handle");
         // HALBERD
-        buildTool("halberd").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addBinding("binding").withLarge().addHandle("handle").addHandle("accessory");
+        buildTool("halberd").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addBinding("binding").withLarge().addHandle("handle");
     }
 }
