@@ -140,6 +140,13 @@ dependencies {
 		modCompileOnly "maven.modrinth:u6dRKJwZ:${jei_version}"
 	}
 
+	// HespheastusPlus
+	if (project.use_heph_plus.toBoolean()) {
+		modImplementation "maven.modrinth:hephaestusplus:${project.hp_version}"
+	} else {
+		modCompileOnly "maven.modrinth:hephaestusplus:${project.hp_version}"
+	}
+
 
 
 	// Ah, so Lombok needs to be included in gradle dependencies in order for it to work.
