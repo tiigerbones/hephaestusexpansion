@@ -43,13 +43,21 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
                 .addInputItem(TinkerToolParts.toolBinding, 45, 46)
                 .build();
 
-        //  SPEAR
+        //  HALBERD
         defineModifiable(HephExItemRegistry.halberd)
                 .sortIndex(SORT_WEAPON + SORT_LARGE)
                 .addInputItem(HephExItemRegistry.halberdHead, 35, 20)
                 .addInputItem(TinkerToolParts.toughHandle, 12, 55)
                 .addInputItem(TinkerToolParts.toughHandle, 30, 40)
                 .addInputItem(TinkerToolParts.toolBinding, 50, 40)
+                .build();
+
+        //  GLAIVE
+        defineModifiable(HephExItemRegistry.glaive)
+                .sortIndex(SORT_WEAPON + SORT_LARGE)
+                .addInputItem(HephExItemRegistry.glaiveHead, 45, 26)
+                .addInputItem(TinkerToolParts.toughHandle, 25, 46)
+                .addInputItem(TinkerToolParts.toolHandle, 7, 62)
                 .build();
     }
 

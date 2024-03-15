@@ -112,6 +112,25 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .harvestLogic(swordLogic)
                 .attack(new SweepWeaponAttack(2));
 
+        // GLAIVE
+        define(ToolDefinitions.GLAIVE)
+                // parts
+                .part(HephExItemRegistry.glaiveHead)
+                .part(toughHandle)
+                .part(toolHandle)
+                // stats
+                .stat(ToolStats.ATTACK_DAMAGE, 3.3f)
+                .stat(ToolStats.ATTACK_SPEED, 1.5f)
+                .multiplier(ToolStats.MINING_SPEED, 0.25f)
+                .multiplier(ToolStats.DURABILITY, 1.1f)
+                .largeToolStartingSlots()
+                // traits
+                .trait(TinkerModifiers.severing, 1)
+                // behavior
+                .action(ToolActions.SWORD_DIG)
+                .harvestLogic(swordLogic)
+                .attack(new SweepWeaponAttack(2));
+
     }
 
     @Override

@@ -31,6 +31,8 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         addToolTags(HephExItemRegistry.spear, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
         // HALBERD
         addToolTags(HephExItemRegistry.halberd, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        // GLAIVE
+        addToolTags(HephExItemRegistry.glaive, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
 
 
         Consumer<CastItemObject> addCast = cast -> {
@@ -46,6 +48,8 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         addCast.accept(HephExItemRegistry.spearHeadCast);
         // Halberd
         addCast.accept(HephExItemRegistry.halberdHeadCast);
+        // Glaive
+        addCast.accept(HephExItemRegistry.glaiveHeadCast);
     }
 
     @SafeVarargs

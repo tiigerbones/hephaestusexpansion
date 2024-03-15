@@ -36,6 +36,10 @@ public class HephExItemRegistry {
     public static ItemObject<ModifiableSwordItem> halberd = HephExItemRegistry.ITEMS.register("halberd", () ->  new ModifiableSwordItem(HephExItemRegistry.TOOL, ToolDefinitions.HALBERD, TinkerTabs.TAB_TOOLS));
     public static ItemObject<ToolPartItem> halberdHead = HephExItemRegistry.ITEMS.register("halberd_head", () -> new ToolPartItem(HephExItemRegistry.PARTS_PROPS, HeadMaterialStats.ID, TinkerTabs.TAB_TOOL_PARTS));
     public static CastItemObject halberdHeadCast = HephExItemRegistry.ITEMS.registerCast("halberd_head", HephExItemRegistry.SMELTERY_PROPS);
+    // Glaive
+    public static ItemObject<ModifiableSwordItem> glaive = HephExItemRegistry.ITEMS.register("glaive", () ->  new ModifiableSwordItem(HephExItemRegistry.TOOL, ToolDefinitions.GLAIVE, TinkerTabs.TAB_TOOLS));
+    public static ItemObject<ToolPartItem> glaiveHead = HephExItemRegistry.ITEMS.register("glaive_head", () -> new ToolPartItem(HephExItemRegistry.PARTS_PROPS, HeadMaterialStats.ID, TinkerTabs.TAB_TOOL_PARTS));
+    public static CastItemObject glaiveHeadCast = HephExItemRegistry.ITEMS.registerCast("glaive_head", HephExItemRegistry.SMELTERY_PROPS);
 
     public static void register() {
         LOGGER.info("Registering Items");

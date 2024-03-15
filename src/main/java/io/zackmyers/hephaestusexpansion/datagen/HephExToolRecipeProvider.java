@@ -22,6 +22,7 @@ public class HephExToolRecipeProvider extends BaseRecipeProvider implements IMat
         toolBuilding(consumer, HephExItemRegistry.kataviscerator, folder);
         toolBuilding(consumer, HephExItemRegistry.spear, folder);
         toolBuilding(consumer, HephExItemRegistry.halberd, folder);
+        toolBuilding(consumer, HephExItemRegistry.glaive, folder);
 
         this.addPartRecipes(consumer);
     }
@@ -34,6 +35,7 @@ public class HephExToolRecipeProvider extends BaseRecipeProvider implements IMat
         partRecipes(consumer, HephExItemRegistry.katavisceratorBlade, HephExItemRegistry.katavisceratorBladeCast, 2, partFolder, castFolder);
         partRecipes(consumer, HephExItemRegistry.spearHead, HephExItemRegistry.spearHeadCast, 2, partFolder, castFolder);
         partRecipes(consumer, HephExItemRegistry.halberdHead, HephExItemRegistry.halberdHeadCast, 2, partFolder, castFolder);
+        partRecipes(consumer, HephExItemRegistry.glaiveHead, HephExItemRegistry.glaiveHeadCast, 2, partFolder, castFolder);
     }
 
     @Override

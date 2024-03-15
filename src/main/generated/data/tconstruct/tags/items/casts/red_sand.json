@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hephaestusexpansion:katana_blade_red_sand_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:kataviscerator_blade_red_sand_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:spear_head_red_sand_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:halberd_head_red_sand_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:glaive_head_red_sand_cast",
+      "required": false
+    }
+  ]
+}
