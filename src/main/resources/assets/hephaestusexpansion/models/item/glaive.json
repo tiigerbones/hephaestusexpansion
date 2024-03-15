@@ -1,0 +1,26 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+      "head":        "hephaestusexpansion:item/tool/glaive/head",
+      "broken_head": "hephaestusexpansion:item/tool/glaive/broken_head",
+      "handle":      "hephaestusexpansion:item/tool/glaive/handle",
+      "guard":     "hephaestusexpansion:item/tool/glaive/guard",
+
+      "large_head":        "hephaestusexpansion:item/tool/glaive/large/head",
+      "large_broken_head": "hephaestusexpansion:item/tool/glaive/large/broken_head",
+      "large_handle":      "hephaestusexpansion:item/tool/glaive/large/handle",
+      "large_guard":     "hephaestusexpansion:item/tool/glaive/large/guard"
+    },
+    "modifier_roots": {
+    "small": [ "hephaestusexpansion:item/tool/glaive/modifiers/" ],
+    "large": [ "hephaestusexpansion:item/tool/glaive/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [-2, 2],
+    "parts": [
+      { "name": "handle",  "index": 1 },
+      { "name": "guard", "index": 2 },
+      { "name": "head",    "index": 0, "broken": "broken_head" }
+    ]
+  }

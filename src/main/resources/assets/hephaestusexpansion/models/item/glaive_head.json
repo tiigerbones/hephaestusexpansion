@@ -1,0 +1,8 @@
+{
+  "loader": "tconstruct:material",
+  "parent": "forge:item/default",
+  "textures": {
+    "texture": "hephaestusexpansion:item/tool/glaive/head"
+  },
+  "offset": [-2, 3]
+}
