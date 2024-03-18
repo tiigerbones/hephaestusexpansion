@@ -31,7 +31,6 @@ public class HephExRegistry {
         pack.addProvider(HephExToolRecipeProvider::new);
         pack.addProvider(HephExMaterialRecipeProvider::new);
         pack.addProvider(HephExStationSlotLayoutProvider::new);
-        pack.addProvider(HephExModifierRecipeProvider::new);
         pack.addProvider(HephExSmelteryRecipeProvider::new);
         pack.addProvider(HephExToolDefinitionProvider::new);
         pack.addProvider(HephExModifierProvider::new);

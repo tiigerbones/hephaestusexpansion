@@ -16,11 +16,14 @@ public class HephExModifierProvider extends AbstractModifierProvider {
 
     @Override
     protected void addModifiers() {
+        /*
+        nothing yet
+         */
 
     }
 
     @Override
     public String getName() {
-        return "HephaestusExpansion Simple Modifiers";
+        return "HephaestusExpansion Modifiers";
     }
 }

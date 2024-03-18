@@ -1,11 +1,11 @@
-// 1.20.1	2024-03-18T14:27:15.3697439	HephaestusExpansion/Tinkers' Construct Material Render Info Provider
+// 1.20.1	2024-03-18T14:36:49.0726818	HephaestusExpansion/Tinkers' Construct Material Render Info Provider
 459eef1afa2d391435442059ee870729f5fc3b2a assets\tconstruct\tinkering\materials\ichor.json
-116d5e1f7244e7f397878224c947243160925161 assets\tconstruct\tinkering\materials\manyullyn.json
 c6f7e0342e17cd8505ebf8280f4d7d7a18cebf3c assets\tconstruct\tinkering\materials\slimewood\greenheart.json
+116d5e1f7244e7f397878224c947243160925161 assets\tconstruct\tinkering\materials\manyullyn.json
 75037538d7c4218adde664f90ab91d2fb6c4aa0f assets\tconstruct\tinkering\materials\flint\basalt.json
 7055823852ac9de8d59024561971fb27e1f862ab assets\tconstruct\tinkering\materials\silver.json
-fa5add7a7e937d24f4a474f559648decee681692 assets\tconstruct\tinkering\materials\bloodbone.json
 1a4f2b9b5d92e502f7d2dd38130ccc710a23a8d0 assets\tconstruct\tinkering\materials\bone.json
+fa5add7a7e937d24f4a474f559648decee681692 assets\tconstruct\tinkering\materials\bloodbone.json
 c66dd692e5fbea829de6e49cef22d43319f89529 assets\tconstruct\tinkering\materials\invar.json
 8a47a6d7f48ae0565f3057b1d6c7961c40ffc80e assets\tconstruct\tinkering\materials\darkthread.json
 cf96584b550a2728d6cb95346e29cb1f563dfc04 assets\tconstruct\tinkering\materials\lead.json

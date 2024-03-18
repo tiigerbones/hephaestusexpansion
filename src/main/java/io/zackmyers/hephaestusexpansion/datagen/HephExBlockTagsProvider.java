@@ -12,7 +12,9 @@ public class HephExBlockTagsProvider extends FabricTagProvider.BlockTagProvider 
 
     @Override
     protected void addTags(HolderLookup.Provider arg) {
-        // No tags to add yet
+        /*
+        nothing yet
+         */
     }
 
     @Override

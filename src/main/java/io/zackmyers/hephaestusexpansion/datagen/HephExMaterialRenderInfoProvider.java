@@ -14,7 +14,7 @@ public class HephExMaterialRenderInfoProvider extends AbstractMaterialRenderInfo
     protected void addMaterialRenderInfo() {
 
         /*
-        we dont implement materials yet
+        nothing yet
          */
     }
 
