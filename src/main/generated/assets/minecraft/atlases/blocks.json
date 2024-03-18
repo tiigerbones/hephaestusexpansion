@@ -398,14 +398,6 @@
     },
     {
       "type": "minecraft:single",
-      "resource": "hephaestusexpansion:gui/modifiers/carmot_shield"
-    },
-    {
-      "type": "minecraft:single",
-      "resource": "tconstruct:gui/modifiers/plus"
-    },
-    {
-      "type": "minecraft:single",
       "resource": "tconstruct:gui/modifiers/luck"
     },
     {
@@ -419,14 +411,6 @@
     {
       "type": "minecraft:single",
       "resource": "tconstruct:gui/modifiers/armor/tool_belt"
-    },
-    {
-      "type": "minecraft:single",
-      "resource": "mythicmetals:item/banglum_chunk"
-    },
-    {
-      "type": "minecraft:single",
-      "resource": "tconstruct:gui/modifiers/book"
     },
     {
       "type": "minecraft:single",
@@ -590,10 +574,6 @@
     },
     {
       "type": "minecraft:single",
-      "resource": "hephaestusexpansion:gui/modifiers/carmot_shield"
-    },
-    {
-      "type": "minecraft:single",
       "resource": "minecraft:item/heart_of_the_sea"
     },
     {
@@ -635,14 +615,6 @@
     {
       "type": "minecraft:single",
       "resource": "tconstruct:gui/tinker_pattern/katana_blade"
-    },
-    {
-      "type": "minecraft:single",
-      "resource": "hephaestusexpansion:gui/tinker_pattern/kataviscerator_blade"
-    },
-    {
-      "type": "minecraft:single",
-      "resource": "tconstruct:gui/tinker_pattern/kataviscerator_blade"
     },
     {
       "type": "minecraft:single",

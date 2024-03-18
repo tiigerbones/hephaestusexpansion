@@ -34,38 +34,6 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/guard",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/handle",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/broken_blade",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/blade",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/large/guard",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/large/handle",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/large/broken_blade",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/kataviscerator/large/blade",
-      "statType": "tconstruct:head"
-    },
-    {
       "path": "hephaestusexpansion:item/tool/spear/head",
       "statType": "tconstruct:head"
     },
