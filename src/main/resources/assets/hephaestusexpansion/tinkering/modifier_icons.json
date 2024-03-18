@@ -1,5 +1,0 @@
-{
-  "hephaestusexpansion:legendary_banglum":  ["mythicmetals:item/banglum_chunk", "tconstruct:gui/modifiers/book"],
-  "hephaestusexpansion:carmot_shield": "hephaestusexpansion:gui/modifiers/carmot_shield",
-  "hephaestusexpansion:carmot_boost":  ["hephaestusexpansion:gui/modifiers/carmot_shield", "tconstruct:gui/modifiers/plus"]
-}

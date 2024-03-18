@@ -51,26 +51,6 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .harvestLogic(swordLogic)
                 .attack(new SweepWeaponAttack(2));
 
-        // Kataviscerator
-        define(ToolDefinitions.KATAVISCERATOR)
-                // parts
-                .part(HephExItemRegistry.katavisceratorBlade)
-                .part(toughHandle)
-                .part(toughHandle)
-                // stats
-                .stat(ToolStats.ATTACK_DAMAGE, 3.5f)
-                .stat(ToolStats.ATTACK_SPEED, 1.27f)
-                .multiplier(ToolStats.ATTACK_DAMAGE, 1.2f)
-                .multiplier(ToolStats.MINING_SPEED, 0.4f)
-                .multiplier(ToolStats.DURABILITY, 1.85f)
-                .largeToolStartingSlots()
-                // traits
-                .trait(TinkerModifiers.severing, 2)
-                // behavior
-                .action(ToolActions.SWORD_DIG)
-                .harvestLogic(swordLogic)
-                .attack(new SweepWeaponAttack(2));
-
         // SPEAR
         define(ToolDefinitions.SPEAR)
                 // parts

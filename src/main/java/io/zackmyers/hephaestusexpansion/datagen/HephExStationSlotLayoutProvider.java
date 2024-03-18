@@ -26,14 +26,6 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
                 .addInputItem(TinkerToolParts.toolHandle, 33, 42)
                 .build();
 
-        //  KATAVISCERATOR
-        defineModifiable(HephExItemRegistry.kataviscerator)
-                .sortIndex(SORT_WEAPON + SORT_LARGE)
-                .addInputItem(HephExItemRegistry.katavisceratorBlade, 53, 22)
-                .addInputItem(TinkerToolParts.toughHandle, 15, 60)
-                .addInputItem(TinkerToolParts.toughHandle, 33, 42)
-                .build();
-
         //  SPEAR
         defineModifiable(HephExItemRegistry.spear)
                 .sortIndex(SORT_WEAPON + SORT_LARGE)

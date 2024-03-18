@@ -25,8 +25,6 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     protected void addTags(HolderLookup.Provider arg) {
         // Katana
         addToolTags(HephExItemRegistry.katana, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
-        // KATAVISCERATOR
-        addToolTags(HephExItemRegistry.kataviscerator, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
         // SPEAR
         addToolTags(HephExItemRegistry.spear, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
         // HALBERD
@@ -42,8 +40,6 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         };
         // Katana
         addCast.accept(HephExItemRegistry.katanaBladeCast);
-        // Kataviscerator
-        addCast.accept(HephExItemRegistry.katavisceratorBladeCast);
         // Spear
         addCast.accept(HephExItemRegistry.spearHeadCast);
         // Halberd

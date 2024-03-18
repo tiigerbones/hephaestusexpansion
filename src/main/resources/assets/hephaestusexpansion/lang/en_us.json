@@ -3,10 +3,7 @@
 
   "item.hephaestusexpansion.katana": "Katana",
   "item.hephaestusexpansion.katana_blade": "Katana Blade",
-  
-  "item.hephaestusexpansion.kataviscerator": "Kataviscerator",
-  "item.hephaestusexpansion.kataviscerator_blade": "Kataviscerator Blade",
-  
+
   "item.hephaestusexpansion.spear": "Spear",
   "item.hephaestusexpansion.spear_head": "Spear Head",
 
@@ -19,7 +16,6 @@
   "_comment2": "hephaestusexpansion Tool Descriptions",
 
   "item.hephaestusexpansion.katana.description": "A finely-crafted katana with a razor-sharp blade, designed for swift and precise strikes in the heat of battle",
-  "item.hephaestusexpansion.kataviscerator.description": "With jagged edges for ruthless efficiency, the Kataviscerator katana is crafted to swiftly shred through foes, leaving chaos in its wake on the battlefield",
   "item.hephaestusexpansion.spear.description": "A straightforward and reliable weapon, boasts a balanced design, perfect for precise thrusts and effective combat in any encounter",
   "item.hephaestusexpansion.halberd.description": "A stalwart polearm, combines a razor-sharp axe blade and a piercing spear point for versatile and formidable strikes",
   "item.hephaestusexpansion.glaive.description": "Sleek and deadly, features a curved blade atop a sturdy shaft, designed for swift and devastating slashes, making it an ideal weapon for skilled combatants seeking elegance and lethality in battle",
@@ -30,11 +26,6 @@
   "item.hephaestusexpansion.katana_blade_cast": "Katana Blade Cast",
   "item.hephaestusexpansion.katana_blade_sand_cast": "Katana Blade Sand Cast",
   "item.hephaestusexpansion.katana_blade_red_sand_cast": "Katana Blade Red Sand Cast",
-
-  "pattern.hephaestusexpansion.kataviscerator_blade": "Kataviscerator Blade",
-  "item.hephaestusexpansion.kataviscerator_blade_cast": "Kataviscerator Blade Cast",
-  "item.hephaestusexpansion.kataviscerator_blade_sand_cast": "Kataviscerator Blade Sand Cast",
-  "item.hephaestusexpansion.kataviscerator_blade_red_sand_cast": "Kataviscerator Blade Red Sand Cast",
 
   "pattern.hephaestusexpansion.spear_head": "Spear Head",
   "item.hephaestusexpansion.spear_head_cast": "Spear Head Cast",
