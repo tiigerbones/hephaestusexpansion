@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-18T14:36:49.0726818	HephaestusExpansion/Tinkers' Construct Material Render Info Provider
+// 1.20.1	2024-03-18T14:42:32.9682541	HephaestusExpansion/Tinkers' Construct Material Render Info Provider
 459eef1afa2d391435442059ee870729f5fc3b2a assets\tconstruct\tinkering\materials\ichor.json
 c6f7e0342e17cd8505ebf8280f4d7d7a18cebf3c assets\tconstruct\tinkering\materials\slimewood\greenheart.json
 116d5e1f7244e7f397878224c947243160925161 assets\tconstruct\tinkering\materials\manyullyn.json
@@ -14,8 +14,8 @@ cf96584b550a2728d6cb95346e29cb1f563dfc04 assets\tconstruct\tinkering\materials\l
 416711fee0fcf4138f805b64f1f150329d93b852 assets\tconstruct\tinkering\materials\zinc.json
 fc919d676928cfeb5376af03308a01164e4de99e assets\tconstruct\tinkering\materials\ui_render\head.json
 9bbd43e3b4258ea938c7bfa27c566d3966273881 assets\tconstruct\tinkering\materials\ui_render\extra_large.json
-4f3300ecae0bd1e7a08c68755804782de3c4b379 assets\tconstruct\tinkering\materials\wood\birch.json
 81c2007e55ec3c7658772248e5f2a9eb9cd0ffc4 assets\tconstruct\tinkering\materials\enderslime.json
+4f3300ecae0bd1e7a08c68755804782de3c4b379 assets\tconstruct\tinkering\materials\wood\birch.json
 524097332670574abf00c2526deb3287c7d675ed assets\tconstruct\tinkering\materials\phantom.json
 9e455e2bd4f85a729fea17a20fba189bf70a55c4 assets\tconstruct\tinkering\materials\rock.json
 7d3797d5a62b974ebefc0f6a7c3c7a7275b5812a assets\tconstruct\tinkering\materials\rock\diorite.json

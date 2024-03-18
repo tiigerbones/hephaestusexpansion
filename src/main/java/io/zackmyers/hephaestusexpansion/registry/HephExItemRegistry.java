@@ -24,8 +24,6 @@ public class HephExItemRegistry {
     public static ItemObject<ModifiableSwordItem> katana = HephExItemRegistry.ITEMS.register("katana", () ->  new ModifiableSwordItem(HephExItemRegistry.TOOL, ToolDefinitions.KATANA, TinkerTabs.TAB_TOOLS));
     public static ItemObject<ToolPartItem> katanaBlade = HephExItemRegistry.ITEMS.register("katana_blade", () -> new ToolPartItem(HephExItemRegistry.PARTS_PROPS, HeadMaterialStats.ID, TinkerTabs.TAB_TOOL_PARTS));
     public static CastItemObject katanaBladeCast = HephExItemRegistry.ITEMS.registerCast("katana_blade", HephExItemRegistry.SMELTERY_PROPS);
-    public static ItemObject<ToolPartItem> katavisceratorBlade = HephExItemRegistry.ITEMS.register("kataviscerator_blade", () -> new ToolPartItem(HephExItemRegistry.PARTS_PROPS, HeadMaterialStats.ID, TinkerTabs.TAB_TOOL_PARTS));
-    public static CastItemObject katavisceratorBladeCast = HephExItemRegistry.ITEMS.registerCast("kataviscerator_blade", HephExItemRegistry.SMELTERY_PROPS);
     // Spear
     public static ItemObject<ModifiableSwordItem> spear = HephExItemRegistry.ITEMS.register("spear", () ->  new ModifiableSwordItem(HephExItemRegistry.TOOL, ToolDefinitions.SPEAR, TinkerTabs.TAB_TOOLS));
     public static ItemObject<ToolPartItem> spearHead = HephExItemRegistry.ITEMS.register("spear_head", () -> new ToolPartItem(HephExItemRegistry.PARTS_PROPS, HeadMaterialStats.ID, TinkerTabs.TAB_TOOL_PARTS));
