@@ -42,10 +42,6 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "hephaestusexpansion:item/tool/spear/binding",
-      "statType": "tconstruct:extra"
-    },
-    {
       "path": "hephaestusexpansion:item/tool/spear/broken_head",
       "statType": "tconstruct:head"
     },
@@ -60,10 +56,6 @@
     {
       "path": "hephaestusexpansion:item/tool/spear/large/guard",
       "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/spear/large/binding",
-      "statType": "tconstruct:extra"
     },
     {
       "path": "hephaestusexpansion:item/tool/spear/large/broken_head",
@@ -82,10 +74,6 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "hephaestusexpansion:item/tool/halberd/binding",
-      "statType": "tconstruct:extra"
-    },
-    {
       "path": "hephaestusexpansion:item/tool/halberd/broken_head",
       "statType": "tconstruct:head"
     },
@@ -100,10 +88,6 @@
     {
       "path": "hephaestusexpansion:item/tool/halberd/large/guard",
       "statType": "tconstruct:handle"
-    },
-    {
-      "path": "hephaestusexpansion:item/tool/halberd/large/binding",
-      "statType": "tconstruct:extra"
     },
     {
       "path": "hephaestusexpansion:item/tool/halberd/large/broken_head",

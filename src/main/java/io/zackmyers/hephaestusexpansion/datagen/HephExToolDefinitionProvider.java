@@ -57,7 +57,6 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .part(HephExItemRegistry.spearHead)
                 .part(toolHandle)
                 .part(toolHandle)
-                .part(toolBinding)
                 // stats
                 .stat(ToolStats.ATTACK_DAMAGE, 3.2f)
                 .stat(ToolStats.ATTACK_SPEED, 1.7f)
@@ -77,7 +76,6 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .part(HephExItemRegistry.halberdHead)
                 .part(toughHandle)
                 .part(toughHandle)
-                .part(toolBinding)
                 // stats
                 .stat(ToolStats.ATTACK_DAMAGE, 5f)
                 .stat(ToolStats.ATTACK_SPEED, 0.85f)

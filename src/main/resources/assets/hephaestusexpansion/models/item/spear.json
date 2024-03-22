@@ -4,14 +4,14 @@
     "textures": {
       "head":        "hephaestusexpansion:item/tool/spear/head",
       "broken_head": "hephaestusexpansion:item/tool/spear/broken_head",
-      "binding":     "hephaestusexpansion:item/tool/spear/binding",
+      "accessory":     "hephaestusexpansion:item/tool/spear/accessory",
       "handle":      "hephaestusexpansion:item/tool/spear/handle",
       "guard":     "hephaestusexpansion:item/tool/spear/guard",
 
       "large_head":        "hephaestusexpansion:item/tool/spear/large/head",
       "large_broken_head": "hephaestusexpansion:item/tool/spear/large/broken_head",
       "large_handle":      "hephaestusexpansion:item/tool/spear/large/handle",
-      "large_binding":     "hephaestusexpansion:item/tool/spear/large/binding",
+      "large_accessory":     "hephaestusexpansion:item/tool/spear/large/accessory",
       "large_guard":     "hephaestusexpansion:item/tool/spear/large/guard"
     },
     "modifier_roots": {
@@ -24,6 +24,6 @@
       { "name": "handle",  "index": 1 },
       { "name": "guard", "index": 2 },
       { "name": "head",    "index": 0, "broken": "broken_head" },
-      { "name": "binding", "index": 3 }
+      { "name": "accessory", "index": 3 }
     ]
   }

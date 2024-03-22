@@ -19,9 +19,9 @@ public class HephaestusExPartSpriteProvider extends AbstractPartSpriteProvider {
         // KATANA
         buildTool("katana").withLarge().addBreakableHead("blade").withLarge().addHandle("guard").withLarge().addHandle("handle");
         // SPEAR
-        buildTool("spear").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addBinding("binding").withLarge().addHandle("handle");
+        buildTool("spear").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addHandle("handle");
         // HALBERD
-        buildTool("halberd").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addBinding("binding").withLarge().addHandle("handle");
+        buildTool("halberd").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addHandle("handle");
         // GLAIVE
         buildTool("glaive").withLarge().addBreakableHead("head").withLarge().addHandle("guard").withLarge().addHandle("handle");
     }

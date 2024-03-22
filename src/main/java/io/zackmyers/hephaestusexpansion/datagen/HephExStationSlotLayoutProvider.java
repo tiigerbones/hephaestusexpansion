@@ -32,7 +32,6 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
                 .addInputItem(HephExItemRegistry.spearHead, 45, 26)
                 .addInputItem(TinkerToolParts.toolHandle, 7, 62)
                 .addInputItem(TinkerToolParts.toolHandle, 25, 46)
-                .addInputItem(TinkerToolParts.toolBinding, 45, 46)
                 .build();
 
         //  HALBERD
@@ -41,7 +40,6 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
                 .addInputItem(HephExItemRegistry.halberdHead, 35, 20)
                 .addInputItem(TinkerToolParts.toughHandle, 12, 55)
                 .addInputItem(TinkerToolParts.toughHandle, 30, 40)
-                .addInputItem(TinkerToolParts.toolBinding, 50, 40)
                 .build();
 
         //  GLAIVE

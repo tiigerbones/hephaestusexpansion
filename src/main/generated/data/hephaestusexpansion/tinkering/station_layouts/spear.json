@@ -32,15 +32,6 @@
       "filter": {
         "item": "tconstruct:tool_handle"
       }
-    },
-    {
-      "icon": "tconstruct:tool_binding",
-      "translation_key": "item.tconstruct.tool_binding",
-      "x": 45,
-      "y": 46,
-      "filter": {
-        "item": "tconstruct:tool_binding"
-      }
     }
   ]
 }
