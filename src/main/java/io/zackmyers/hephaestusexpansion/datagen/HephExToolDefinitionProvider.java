@@ -59,7 +59,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .part(toolHandle)
                 // stats
                 .stat(ToolStats.ATTACK_DAMAGE, 3.2f)
-                .stat(ToolStats.ATTACK_SPEED, 1.7f)
+                .stat(ToolStats.ATTACK_SPEED, 1.3f)
                 .multiplier(ToolStats.MINING_SPEED, 0.25f)
                 .multiplier(ToolStats.DURABILITY, 1.3f)
                 .largeToolStartingSlots()
@@ -97,8 +97,8 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .part(toughHandle)
                 .part(toolHandle)
                 // stats
-                .stat(ToolStats.ATTACK_DAMAGE, 3.3f)
-                .stat(ToolStats.ATTACK_SPEED, 1.5f)
+                .stat(ToolStats.ATTACK_DAMAGE, 3.1f)
+                .stat(ToolStats.ATTACK_SPEED, 1.2f)
                 .multiplier(ToolStats.MINING_SPEED, 0.25f)
                 .multiplier(ToolStats.DURABILITY, 1.1f)
                 .largeToolStartingSlots()
