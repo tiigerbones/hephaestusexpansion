@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hephaestusexpansion:katana_blade_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:spear_head_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:halberd_head_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:glaive_head_cast",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:claymore_blade_cast",
+      "required": false
+    }
+  ]
+}

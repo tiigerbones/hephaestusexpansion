@@ -1,0 +1,37 @@
+{
+  "translation_key": "item.hephaestusexpansion.halberd",
+  "icon": {
+    "item": "hephaestusexpansion:halberd",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+  },
+  "sortIndex": 9,
+  "input_slots": [
+    {
+      "icon": "hephaestusexpansion:halberd_head",
+      "translation_key": "item.hephaestusexpansion.halberd_head",
+      "x": 35,
+      "y": 20,
+      "filter": {
+        "item": "hephaestusexpansion:halberd_head"
+      }
+    },
+    {
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 12,
+      "y": 55,
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      }
+    },
+    {
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 30,
+      "y": 40,
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      }
+    }
+  ]
+}

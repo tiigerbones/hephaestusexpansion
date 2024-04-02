@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hephaestusexpansion:katana",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:spear",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:halberd",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:glaive",
+      "required": false
+    },
+    {
+      "id": "hephaestusexpansion:claymore",
+      "required": false
+    }
+  ]
+}
