@@ -91,7 +91,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
         define(ToolDefinitions.GLAIVE)
                 // parts
                 .part(HephExItemRegistry.glaiveHead)
-                .part(toughHandle)
+                .part(toolHandle)
                 .part(toolHandle)
                 // stats
                 .stat(ToolStats.ATTACK_DAMAGE, 3f)

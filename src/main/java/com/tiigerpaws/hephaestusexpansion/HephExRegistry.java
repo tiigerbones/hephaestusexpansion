@@ -35,52 +35,20 @@ public class HephExRegistry {
         pack.addProvider(HephExToolDefinitionProvider::new);
         pack.addProvider(HephExModifierProvider::new);
 
-        /*
-        we don't add materials or traits yet
-        HephExMaterialDataProvider materials = pack.addProvider(HephExMaterialDataProvider::new);
-        pack.addProvider((output, registriesFuture) -> new HephExMaterialStatsProvider(output, materials));
-        pack.addProvider((output, registriesFuture) -> new HephExMaterialTraitsProvider(output, materials));
-        */
 
         TinkerMaterialSpriteProvider materialSprites = new TinkerMaterialSpriteProvider();
-
-        /*
-        we don't add materials yet
-        HephaestusExMaterialSpriteProvider moreToolMats = new HephaestusExMaterialSpriteProvider();
-        */
-
         TinkerPartSpriteProvider partSprites = new TinkerPartSpriteProvider();
-
         HephaestusExPartSpriteProvider morePartSprites = new HephaestusExPartSpriteProvider();
-
         pack.addProvider((output, registriesFuture) -> new MaterialRenderInfoProvider(output, materialSprites));
-        //pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, HephaestusExpansion.MOD_ID, partSprites));
-
-        /*
-        we don't add materials yet
-        pack.addProvider((output, registriesFuture) -> new HephExMaterialRenderInfoProvider(output, moreToolMats));
-        */
-
-
         pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, MOD_ID, morePartSprites));
 
 
-        //Tinkers' materials for HephaestusExpansion parts
+        // Tinkers' materials for HephaestusExpansion parts
         pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites, materialSprites));
 
 
-
-        /*
-        we don't add materials yet
-
-        HephaestusExpansion materials for Tinkers' parts
-        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, partSprites));
-
-        HephaestusExpansion materials for HephaestusExpansion parts
-        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper));
-         */
-
         pack.addProvider((output, registriesFuture) -> new TinkerSpriteSourceGenerator(output, existingFileHelper));
+
     }
 }
 

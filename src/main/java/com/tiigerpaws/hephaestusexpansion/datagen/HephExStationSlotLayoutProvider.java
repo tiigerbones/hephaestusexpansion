@@ -46,7 +46,7 @@ public class HephExStationSlotLayoutProvider extends AbstractStationSlotLayoutPr
         defineModifiable(HephExItemRegistry.glaive)
                 .sortIndex(SORT_WEAPON + SORT_LARGE)
                 .addInputItem(HephExItemRegistry.glaiveHead, 45, 26)
-                .addInputItem(TinkerToolParts.toughHandle, 7, 62)
+                .addInputItem(TinkerToolParts.toolHandle, 7, 62)
                 .addInputItem(TinkerToolParts.toolHandle, 25, 46)
                 .build();
 

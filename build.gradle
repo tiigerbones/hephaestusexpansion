@@ -130,16 +130,6 @@ dependencies {
 		modCompileOnly "maven.modrinth:alloy-forgery:${project.af_version}"
 	}
 
-	// EMI and JEI
-	if (project.use_emi.toBoolean()) {
-		modImplementation "maven.modrinth:fRiHVvU7:${emi_version}"
-		modImplementation "maven.modrinth:u6dRKJwZ:${jei_version}"
-
-	} else {
-		modCompileOnly "maven.modrinth:fRiHVvU7:${emi_version}"
-		modCompileOnly "maven.modrinth:u6dRKJwZ:${jei_version}"
-	}
-
 	// HespheastusPlus
 	if (project.use_heph_plus.toBoolean()) {
 		modImplementation "maven.modrinth:hephaestusplus:${project.hp_version}"
