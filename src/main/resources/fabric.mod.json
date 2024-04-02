@@ -8,10 +8,11 @@
 		"tiigerbones"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/hepheastus-expansion",
+		"sources": "https://github.com/tiigerbones/hepheastusexpansion",
+		"issues": "https://github.com/tiigerbones/hepheastusexpansion/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/hephaestusexpansion/icon.png",
 	"environment": "*",
 	"entrypoints": {
