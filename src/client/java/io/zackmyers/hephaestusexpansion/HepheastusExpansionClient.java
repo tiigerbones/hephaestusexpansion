@@ -1,4 +1,4 @@
-package io.zackmyers.hephaestusexpansion;
+package com.tiigerpaws.hephaestusexpansion;
 
 import net.fabricmc.api.ClientModInitializer;
 

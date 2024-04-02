@@ -128,6 +128,38 @@
     {
       "path": "hephaestusexpansion:item/tool/glaive/large/handle",
       "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/broken_blade",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/blade",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/large/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/large/broken_blade",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "hephaestusexpansion:item/tool/claymore/large/blade",
+      "statType": "tconstruct:head"
     }
   ]
 }

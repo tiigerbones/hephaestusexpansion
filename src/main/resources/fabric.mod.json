@@ -3,9 +3,9 @@
 	"id": "hephaestusexpansion",
 	"version": "${version}",
 	"name": "HephaestusExpansion",
-	"description": "Hephaestus Addon for more weapons and metals!",
+	"description": "Hephaestus Addon for more weapons",
 	"authors": [
-		"Me!"
+		"tiigerbones"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,12 +16,12 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.zackmyers.hephaestusexpansion.HephaestusExpansion"
+          "com.tiigerpaws.hephaestusexpansion.HephaestusExpansion"
 		],
 		"client": [
 		],
 		"fabric-datagen": [
-			"io.zackmyers.hephaestusexpansion.HephaestusExpansionDataGenerator"
+          "com.tiigerpaws.hephaestusexpansion.HephaestusExpansionDataGenerator"
 		]
 	},
 	"mixins": [

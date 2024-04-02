@@ -12,6 +12,9 @@
 
   "item.hephaestusexpansion.glaive": "Glaive",
   "item.hephaestusexpansion.glaive_head": "Glaive Head",
+
+  "item.hephaestusexpansion.claymore": "Claymore",
+  "item.hephaestusexpansion.claymore_blade": "Claymore Blade",
   
   "_comment2": "hephaestusexpansion Tool Descriptions",
 
@@ -19,6 +22,7 @@
   "item.hephaestusexpansion.spear.description": "A straightforward and reliable weapon, boasts a balanced design, perfect for precise thrusts and effective combat in any encounter",
   "item.hephaestusexpansion.halberd.description": "A stalwart polearm, combines a razor-sharp axe blade and a piercing spear point for versatile and formidable strikes",
   "item.hephaestusexpansion.glaive.description": "Sleek and deadly, features a curved blade atop a sturdy shaft, designed for swift and devastating slashes, making it an ideal weapon for skilled combatants seeking elegance and lethality in battle",
+  "item.hephaestusexpansion.claymore.description": "A formidable two-handed sword, exudes raw power with its broad blade, capable of delivering crushing blows.",
   "_comment3": "hephaestusexpansion Modifiers",
 
   "_comment4": "HephaestusTools Patterns",
@@ -41,6 +45,11 @@
   "item.hephaestusexpansion.glaive_head_cast": "Glaive Head Cast",
   "item.hephaestusexpansion.glaive_head_sand_cast": "Glaive Head Sand Cast",
   "item.hephaestusexpansion.glaive_head_red_sand_cast": "Glaive Head Red Sand Cast",
+
+  "pattern.hephaestusexpansion.claymore_blade": "Claymore Blade",
+  "item.hephaestusexpansion.claymore_blade_cast": "Claymore Blade Cast",
+  "item.hephaestusexpansion.claymore_blade_sand_cast": "Claymore Blade Sand Cast",
+  "item.hephaestusexpansion.claymore_blade_red_sand_cast": "Claymore Blade Red Sand Cast",
 
   "_comment5": "HephaestusTools Items",
 

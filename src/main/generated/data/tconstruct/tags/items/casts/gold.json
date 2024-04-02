@@ -16,6 +16,10 @@
     {
       "id": "hephaestusexpansion:glaive_head_cast",
       "required": false
+    },
+    {
+      "id": "hephaestusexpansion:claymore_blade_cast",
+      "required": false
     }
   ]
 }

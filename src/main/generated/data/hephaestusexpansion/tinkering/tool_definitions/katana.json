@@ -12,8 +12,8 @@
   ],
   "stats": {
     "base": {
-      "tconstruct:attack_damage": 3.5,
-      "tconstruct:attack_speed": 1.4
+      "tconstruct:attack_damage": 3.0,
+      "tconstruct:attack_speed": 2.0
     },
     "multipliers": {
       "tconstruct:mining_speed": 0.4,
@@ -62,6 +62,6 @@
   },
   "attack": {
     "type": "tconstruct:sweep",
-    "range": 2.0
+    "range": 1.0
   }
 }

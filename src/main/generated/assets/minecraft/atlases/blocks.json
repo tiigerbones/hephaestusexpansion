@@ -594,6 +594,10 @@
     },
     {
       "type": "minecraft:single",
+      "resource": "hephaestusexpansion:gui/tinker_pattern/claymore_blade"
+    },
+    {
+      "type": "minecraft:single",
       "resource": "hephaestusexpansion:gui/tinker_pattern/glaive_head"
     },
     {

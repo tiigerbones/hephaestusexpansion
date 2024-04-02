@@ -5,11 +5,13 @@
       "head":        "hephaestusexpansion:item/tool/glaive/head",
       "broken_head": "hephaestusexpansion:item/tool/glaive/broken_head",
       "handle":      "hephaestusexpansion:item/tool/glaive/handle",
+      "accessory":     "hephaestusexpansion:item/tool/glaive/accessory",
       "guard":     "hephaestusexpansion:item/tool/glaive/guard",
 
       "large_head":        "hephaestusexpansion:item/tool/glaive/large/head",
       "large_broken_head": "hephaestusexpansion:item/tool/glaive/large/broken_head",
       "large_handle":      "hephaestusexpansion:item/tool/glaive/large/handle",
+      "large_accessory":     "hephaestusexpansion:item/tool/glaive/large/accessory",
       "large_guard":     "hephaestusexpansion:item/tool/glaive/large/guard"
     },
     "modifier_roots": {
@@ -21,6 +23,7 @@
     "parts": [
       { "name": "handle",  "index": 1 },
       { "name": "guard", "index": 2 },
-      { "name": "head",    "index": 0, "broken": "broken_head" }
+      { "name": "head",    "index": 0, "broken": "broken_head" },
+      { "name": "accessory", "index": 3 }
     ]
   }

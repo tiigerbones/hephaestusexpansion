@@ -1,0 +1,26 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+      "head":        "hephaestusexpansion:item/tool/claymore/blade",
+      "broken_head": "hephaestusexpansion:item/tool/claymore/broken_blade",
+      "handle":      "hephaestusexpansion:item/tool/claymore/handle",
+      "guard":     "hephaestusexpansion:item/tool/claymore/guard",
+
+      "large_head":        "hephaestusexpansion:item/tool/claymore/large/blade",
+      "large_broken_head": "hephaestusexpansion:item/tool/claymore/large/broken_blade",
+      "large_handle":      "hephaestusexpansion:item/tool/claymore/large/handle",
+      "large_guard":     "hephaestusexpansion:item/tool/claymore/large/guard"
+    },
+    "modifier_roots": {
+    "small": [ "hephaestusexpansion:item/tool/claymore/modifiers/" ],
+    "large": [ "hephaestusexpansion:item/tool/claymore/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [3, -3],
+    "parts": [
+      { "name": "handle",  "index": 1 },
+      { "name": "head",    "index": 0, "broken": "broken_blade" },
+      { "name": "guard", "index": 2 }
+    ]
+  }
