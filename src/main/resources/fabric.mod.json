@@ -8,9 +8,9 @@
 		"tiigerbones"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/hepheastus-expansion",
-		"sources": "https://github.com/tiigerbones/hepheastusexpansion",
-		"issues": "https://github.com/tiigerbones/hepheastusexpansion/issues"
+		"homepage": "https://modrinth.com/mod/hephaestus-expansion",
+		"sources": "https://github.com/tiigerbones/hephaestusexpansion",
+		"issues": "https://github.com/tiigerbones/hephaestusexpansion/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/hephaestusexpansion/icon.png",
