@@ -4,6 +4,8 @@ import io.github.fabricators_of_create.porting_lib.data.ExistingFileHelper;
 import com.tiigerpaws.hephaestusexpansion.datagen.*;
 import com.tiigerpaws.hephaestusexpansion.registry.HephExItemRegistry;
 import com.tiigerpaws.hephaestusexpansion.spritegen.HephaestusExPartSpriteProvider;
+import konsola5.hephaestusplus.spritegen.HephPlusMaterialRenderInfoProvider;
+import konsola5.hephaestusplus.spritegen.HephaestusPlusMaterialSpriteProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import slimeknights.tconstruct.library.client.data.TinkerSpriteSourceGenerator;
@@ -37,14 +39,26 @@ public class HephExRegistry {
 
 
         TinkerMaterialSpriteProvider materialSprites = new TinkerMaterialSpriteProvider();
+
+        // Hephplus
+        HephaestusPlusMaterialSpriteProvider moreToolMats = new HephaestusPlusMaterialSpriteProvider();
+
         TinkerPartSpriteProvider partSprites = new TinkerPartSpriteProvider();
         HephaestusExPartSpriteProvider morePartSprites = new HephaestusExPartSpriteProvider();
         pack.addProvider((output, registriesFuture) -> new MaterialRenderInfoProvider(output, materialSprites));
+
+        // Hephplus
+        pack.addProvider((output, registriesFuture) -> new HephPlusMaterialRenderInfoProvider(output, moreToolMats));
+
         pack.addProvider((output, registriesFuture) -> new GeneratorPartTextureJsonGenerator(output, MOD_ID, morePartSprites));
 
 
         // Tinkers' materials for HephaestusExpansion parts
         pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites, materialSprites));
+
+
+        //HephaestusPlus materials for HephaestusExpansion parts
+        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites, moreToolMats));
 
 
         pack.addProvider((output, registriesFuture) -> new TinkerSpriteSourceGenerator(output, existingFileHelper));
