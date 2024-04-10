@@ -3,6 +3,6 @@
   "cast": {
     "tag": "hephaestusexpansion:casts/multi_use/halberd_head"
   },
-  "item_cost": 2,
+  "item_cost": 8,
   "result": "hephaestusexpansion:halberd_head"
 }

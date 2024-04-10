@@ -4,6 +4,6 @@
     "tag": "hephaestusexpansion:casts/single_use/claymore_blade"
   },
   "cast_consumed": true,
-  "item_cost": 2,
+  "item_cost": 8,
   "result": "hephaestusexpansion:claymore_blade"
 }
