@@ -1,4 +1,4 @@
-## Hephaestus Expansion
+![image](https://github.com/user-attachments/assets/85a96c51-1a99-4ee9-aa2b-2b7c94e7e3ba)## Hephaestus Expansion
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/H6K8bKGy?style=for-the-badge&logo=modrinth&color=white&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Fhephaestus-expansion)](https://modrinth.com/mod/hephaestus-expansion) [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/tiigerbones?style=for-the-badge&logo=X&color=grey)](https://twitter.com/tiigerbones)
 
@@ -14,3 +14,8 @@ A [Hephaestus](https://modrinth.com/mod/hephaestus) add-on that introduces a han
 - Spear
 
 ...More soon
+
+
+### Current issues
+Ill be returning to this mod early next year! Probably in January-February!
+Looking forward to finally adding more textures and unique effects!
