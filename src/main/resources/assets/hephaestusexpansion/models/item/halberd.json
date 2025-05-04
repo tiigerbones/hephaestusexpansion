@@ -2,28 +2,51 @@
   "loader": "tconstruct:tool",
   "parent": "forge:item/default-tool",
   "textures": {
-    "head":        "hephaestusexpansion:item/tool/halberd/head",
+    "head": "hephaestusexpansion:item/tool/halberd/head",
     "broken_head": "hephaestusexpansion:item/tool/halberd/broken_head",
-    "handle":      "hephaestusexpansion:item/tool/halberd/handle",
-    "accessory":     "hephaestusexpansion:item/tool/halberd/accessory",
-    "guard":     "hephaestusexpansion:item/tool/halberd/guard",
-    
-    "large_head":        "hephaestusexpansion:item/tool/halberd/large/head",
+    "handle": "hephaestusexpansion:item/tool/halberd/handle",
+    "accessory": "hephaestusexpansion:item/tool/halberd/accessory",
+    "guard": "hephaestusexpansion:item/tool/halberd/guard",
+    "large_head": "hephaestusexpansion:item/tool/halberd/large/head",
     "large_broken_head": "hephaestusexpansion:item/tool/halberd/large/broken_head",
-    "large_handle":      "hephaestusexpansion:item/tool/halberd/large/handle",
-    "large_accessory":     "hephaestusexpansion:item/tool/halberd/large/accessory",
-    "large_guard":     "hephaestusexpansion:item/tool/halberd/large/guard"
+    "large_handle": "hephaestusexpansion:item/tool/halberd/large/handle",
+    "large_accessory": "hephaestusexpansion:item/tool/halberd/large/accessory",
+    "large_guard": "hephaestusexpansion:item/tool/halberd/large/guard"
   },
   "modifier_roots": {
-    "small": [ "hephaestusexpansion:item/tool/halberd/modifiers/" ],
-    "large": [ "hephaestusexpansion:item/tool/halberd/large/modifiers/" ]
+    "small": [
+      "hephaestusexpansion:item/tool/halberd/modifiers/"
+    ],
+    "large": [
+      "hephaestusexpansion:item/tool/halberd/large/modifiers/"
+    ]
   },
   "large": true,
-  "large_offset": [-2, 2],
+  "large_offset": [
+    -2,
+    2
+  ],
   "parts": [
-    { "name": "handle",  "index": 1 },
-    { "name": "guard", "index": 2 },
-    { "name": "head",    "index": 0, "broken": "broken_head" },
-    { "name": "accessory", "index": 3 }
-  ]
+    {
+      "name": "handle",
+      "index": 1
+    },
+    {
+      "name": "guard",
+      "index": 2
+    },
+    {
+      "name": "head",
+      "index": 0,
+      "broken": "broken_head"
+    },
+    {
+      "name": "accessory",
+      "index": 3
+    }
+  ],
+  "overrides": [{
+    "predicate": { "tconstruct:charging": 2 },
+    "model": "tconstruct:item/blocking/halberd"
+  }]
 }
