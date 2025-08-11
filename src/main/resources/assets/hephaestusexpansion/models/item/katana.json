@@ -20,7 +20,7 @@
   "large_offset": [-2, 2],
     "parts": [
       { "name": "handle",  "index": 1 },
-      { "name": "head",    "index": 0, "broken": "broken_blade" },
+      { "name": "head",    "index": 0, "broken": "broken_head" },
       { "name": "guard", "index": 2 }
     ]
   }
