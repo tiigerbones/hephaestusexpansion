@@ -1,4 +1,4 @@
-package com.tiigerpaws.hephaestusexpansion.datagen;
+package com.enchantedwisp.hephaestusexpansion.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.data.recipes.FinishedRecipe;

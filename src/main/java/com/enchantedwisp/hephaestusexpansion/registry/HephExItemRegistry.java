@@ -1,6 +1,6 @@
-package com.tiigerpaws.hephaestusexpansion.registry;
+package com.enchantedwisp.hephaestusexpansion.registry;
 
-import com.tiigerpaws.hephaestusexpansion.tools.ToolDefinitions;
+import com.enchantedwisp.hephaestusexpansion.tools.ToolDefinitions;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.world.item.Item;
 import slimeknights.mantle.registration.object.ItemObject;
@@ -11,8 +11,8 @@ import slimeknights.tconstruct.library.tools.part.ToolPartItem;
 import slimeknights.tconstruct.tools.item.ModifiableSwordItem;
 import slimeknights.tconstruct.tools.stats.HeadMaterialStats;
 
-import static com.tiigerpaws.hephaestusexpansion.HephaestusExpansion.LOGGER;
-import static com.tiigerpaws.hephaestusexpansion.HephaestusExpansion.MOD_ID;
+import static com.enchantedwisp.hephaestusexpansion.HephaestusExpansion.LOGGER;
+import static com.enchantedwisp.hephaestusexpansion.HephaestusExpansion.MOD_ID;
 public class HephExItemRegistry {
     public static final ItemDeferredRegisterExtension ITEMS = new ItemDeferredRegisterExtension(MOD_ID);
     public static final Item.Properties TOOL = new FabricItemSettings().maxCount(1);

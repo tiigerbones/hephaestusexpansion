@@ -1,4 +1,4 @@
-package com.tiigerpaws.hephaestusexpansion.datagen;
+package com.enchantedwisp.hephaestusexpansion.datagen;
 
 public class HephExModifierRecipeProvider{
     /*

@@ -1,9 +1,9 @@
-package com.tiigerpaws.hephaestusexpansion.datagen;
+package com.enchantedwisp.hephaestusexpansion.datagen;
 
 import io.github.fabricators_of_create.porting_lib.tool.ToolActions;
-import com.tiigerpaws.hephaestusexpansion.HephaestusExpansion;
-import com.tiigerpaws.hephaestusexpansion.registry.HephExItemRegistry;
-import com.tiigerpaws.hephaestusexpansion.tools.ToolDefinitions;
+import com.enchantedwisp.hephaestusexpansion.HephaestusExpansion;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExItemRegistry;
+import com.enchantedwisp.hephaestusexpansion.tools.ToolDefinitions;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.world.level.block.Blocks;
 import slimeknights.tconstruct.common.TinkerTags;

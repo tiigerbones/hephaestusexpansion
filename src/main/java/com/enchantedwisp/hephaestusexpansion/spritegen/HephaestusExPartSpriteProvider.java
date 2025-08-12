@@ -1,6 +1,6 @@
-package com.tiigerpaws.hephaestusexpansion.spritegen;
+package com.enchantedwisp.hephaestusexpansion.spritegen;
 
-import com.tiigerpaws.hephaestusexpansion.HephaestusExpansion;
+import com.enchantedwisp.hephaestusexpansion.HephaestusExpansion;
 import slimeknights.tconstruct.library.client.data.material.AbstractPartSpriteProvider;
 
 public class HephaestusExPartSpriteProvider extends AbstractPartSpriteProvider {

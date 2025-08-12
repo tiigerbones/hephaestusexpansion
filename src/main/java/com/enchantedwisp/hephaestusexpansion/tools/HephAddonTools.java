@@ -1,4 +1,4 @@
-package com.tiigerpaws.hephaestusexpansion.tools;
+package com.enchantedwisp.hephaestusexpansion.tools;
 
 import slimeknights.tconstruct.common.TinkerModule;
 

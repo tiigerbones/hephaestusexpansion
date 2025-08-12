@@ -1,4 +1,4 @@
-package com.tiigerpaws.hephaestusexpansion;
+package com.enchantedwisp.hephaestusexpansion;
 
 import com.llamalad7.mixinextras.MixinExtrasBootstrap;
 import net.fabricmc.api.ModInitializer;
@@ -9,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.annotation.Nullable;
-import java.util.List;
 
 public class HephaestusExpansion implements ModInitializer {
 

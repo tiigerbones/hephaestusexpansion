@@ -1,6 +1,6 @@
-package com.tiigerpaws.hephaestusexpansion.datagen;
+package com.enchantedwisp.hephaestusexpansion.datagen;
 
-import com.tiigerpaws.hephaestusexpansion.registry.HephExItemRegistry;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExItemRegistry;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;

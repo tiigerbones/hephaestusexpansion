@@ -17,12 +17,12 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.tiigerpaws.hephaestusexpansion.HephaestusExpansion"
+			"com.enchantedwisp.hephaestusexpansion.HephaestusExpansion"
 		],
 		"client": [
 		],
 		"fabric-datagen": [
-          "com.tiigerpaws.hephaestusexpansion.HephaestusExpansionDataGenerator"
+			"com.enchantedwisp.hephaestusexpansion.HephaestusExpansionDataGenerator"
 		]
 	},
 	"mixins": [

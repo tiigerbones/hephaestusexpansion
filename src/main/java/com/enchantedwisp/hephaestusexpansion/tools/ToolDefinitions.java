@@ -1,6 +1,6 @@
-package com.tiigerpaws.hephaestusexpansion.tools;
+package com.enchantedwisp.hephaestusexpansion.tools;
 
-import com.tiigerpaws.hephaestusexpansion.registry.HephExItemRegistry;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExItemRegistry;
 import slimeknights.tconstruct.library.tools.definition.ToolDefinition;
 
 public final class ToolDefinitions {
