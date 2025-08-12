@@ -42,8 +42,9 @@ public class HephExRegistry {
         TinkerMaterialSpriteProvider materialSprites = new TinkerMaterialSpriteProvider();
 
         /* Hephplus
-          */
         HephaestusPlusMaterialSpriteProvider moreToolMats = new HephaestusPlusMaterialSpriteProvider();
+          */
+
 
 
 
@@ -52,8 +53,9 @@ public class HephExRegistry {
         pack.addProvider((output, registriesFuture) -> new MaterialRenderInfoProvider(output, materialSprites));
 
         /* Hephplus
-          */
         pack.addProvider((output, registriesFuture) -> new HephPlusMaterialRenderInfoProvider(output, moreToolMats));
+          */
+
 
 
 
@@ -65,8 +67,8 @@ public class HephExRegistry {
 
 
         /* HephaestusPlus materials for HephaestusExpansion parts
+                pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites, moreToolMats));
           */
-        pack.addProvider((output, registriesFuture) -> new MaterialPartTextureGenerator(output, existingFileHelper, morePartSprites, moreToolMats));
 
 
 
