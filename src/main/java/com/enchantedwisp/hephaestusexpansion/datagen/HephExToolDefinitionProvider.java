@@ -1,5 +1,7 @@
 package com.enchantedwisp.hephaestusexpansion.datagen;
 
+import com.enchantedwisp.hephaestusexpansion.ids.HephExModifierIds;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExModifierRegistry;
 import io.github.fabricators_of_create.porting_lib.tool.ToolActions;
 import com.enchantedwisp.hephaestusexpansion.HephaestusExpansion;
 import com.enchantedwisp.hephaestusexpansion.registry.HephExItemRegistry;
@@ -45,6 +47,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .smallToolStartingSlots()
                 // traits
                 .trait(TinkerModifiers.severing, 1)
+                .trait(HephExModifierIds.true_edge, 2)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
                 .harvestLogic(swordLogic)
@@ -63,7 +66,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .multiplier(ToolStats.DURABILITY, 1.3f)
                 .largeToolStartingSlots()
                 // traits
-                .trait(TinkerModifiers.piercing, 1)
+                .trait(HephExModifierIds.piercing_thrust, 1)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
                 .harvestLogic(swordLogic);
@@ -100,7 +103,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .multiplier(ToolStats.DURABILITY, 1.1f)
                 .largeToolStartingSlots()
                 // traits
-                .trait(TinkerModifiers.boonOfSssss, 1)
+                .trait(TinkerModifiers.sweeping, 1)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
                 .harvestLogic(swordLogic)

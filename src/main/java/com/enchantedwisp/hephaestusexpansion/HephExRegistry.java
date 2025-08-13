@@ -1,6 +1,7 @@
 package com.enchantedwisp.hephaestusexpansion;
 
 import com.enchantedwisp.hephaestusexpansion.datagen.*;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExModifierRegistry;
 import io.github.fabricators_of_create.porting_lib.data.ExistingFileHelper;
 import com.enchantedwisp.hephaestusexpansion.datagen.*;
 import com.enchantedwisp.hephaestusexpansion.registry.HephExItemRegistry;
@@ -22,6 +23,7 @@ import static com.enchantedwisp.hephaestusexpansion.HephaestusExpansion.MOD_ID;
 public class HephExRegistry {
 
     public static void init() {
+        HephExModifierRegistry.register();
         HephExItemRegistry.register();
     }
 
