@@ -22,6 +22,7 @@ import java.util.function.Consumer;
 
 import static slimeknights.tconstruct.common.TinkerTags.Items.*;
 
+@SuppressWarnings("unchecked")
 public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     public HephExItemTagsProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> completableFuture, @Nullable BlockTagProvider blockTagProvider) {
         super(output, completableFuture, blockTagProvider);
