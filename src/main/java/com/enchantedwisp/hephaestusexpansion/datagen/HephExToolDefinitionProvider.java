@@ -123,6 +123,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .smallToolStartingSlots()
                 // traits
                 .trait(TinkerModifiers.knockback, 1)
+                .trait(HephExModifierIds.highland_wrath, 1)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
                 .harvestLogic(swordLogic)

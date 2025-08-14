@@ -12,6 +12,7 @@ public class HephExModifierRegistry {
 
     public static final StaticModifier<Modifier> TRUE_EDGE = MODIFIERS.register("true_edge", TrueEdgeModifier::new);
     public static final StaticModifier<Modifier> PIERCING_THRUST = MODIFIERS.register("piercing_thrust", PiercingThrustModifier::new);
+    public static final StaticModifier<Modifier> HIGHLAND_WRATH = MODIFIERS.register("highland_wrath", HighlandWrathModifier::new);
     public static void register() {
         MODIFIERS.register();
     }

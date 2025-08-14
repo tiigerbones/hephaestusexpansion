@@ -36,13 +36,20 @@
   "modifier.hephaestusexpansion.piercing_thrust": "Piercing Thrust",
   "modifier.hephaestusexpansion.piercing_thrust.flavor": "Nothing stands in the way of your spear.",
   "modifier.hephaestusexpansion.piercing_thrust.description": "Thrusts strikes additional enemies in a straight line.",
-  "modifier.hephaestusexpansion.piercing_thrust.description1": "Every 3rd hit on the same target within 5s adds a stack",
-  "modifier.hephaestusexpansion.piercing_thrust.description2": "Up to 3 times",
+  "modifier.hephaestusexpansion.piercing_thrust.crit_desc": "Every 3rd hit on the same target within 5s adds a crit chance stack up to 3 times",
 
-  "modifier.hephaestusexpansion.piercing_thrust.damage": "Damage to additional Targets",
-  "modifier.hephaestusexpansion.piercing_thrust.crit_chance_stack": "Crit Chance added per stack",
+  "modifier.hephaestusexpansion.piercing_thrust.damage": "Damage to Targets",
+  "modifier.hephaestusexpansion.piercing_thrust.crit_chance_stack": "Crit Chance p/stack",
   "modifier.hephaestusexpansion.piercing_thrust.crit_chance": "Crit Chance Total",
   "modifier.hephaestusexpansion.piercing_thrust.targets.value": "Additional Targets",
+
+  "modifier.hephaestusexpansion.highland_wrath": "Highland Wrath",
+  "modifier.hephaestusexpansion.highland_wrath.flavor": "Theres no stopping your blade from destroying its enemies.",
+  "modifier.hephaestusexpansion.highland_wrath.description": "After 3 attacks your enemies lower their guard and also are slowed both in speed and attack",
+  "modifier.hephaestusexpansion.highland_wrath.bonus_damage": "Max Bonus Damage",
+
+
+
 
   "_comment4": "HephaestusTools Patterns",
   "pattern.hephaestusexpansion.katana_blade": "Katana Blade",
