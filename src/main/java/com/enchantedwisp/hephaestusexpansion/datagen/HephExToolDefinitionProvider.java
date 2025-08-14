@@ -47,7 +47,7 @@ public class HephExToolDefinitionProvider extends AbstractToolDefinitionDataProv
                 .smallToolStartingSlots()
                 // traits
                 .trait(TinkerModifiers.severing, 1)
-                .trait(HephExModifierIds.true_edge, 2)
+                .trait(HephExModifierIds.true_edge, 1)
                 // behavior
                 .action(ToolActions.SWORD_DIG)
                 .harvestLogic(swordLogic)
