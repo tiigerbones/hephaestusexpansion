@@ -23,26 +23,26 @@ public class PiercingThrustModifier extends Modifier {
 
     /* -------------------- Normal mode config -------------------- */
     private static final float BASE_SECONDARY_DAMAGE = 0.35f;
-    private static final float DAMAGE_PER_LEVEL      = 0.05f;
-    private static final int   BASE_MAX_TARGETS      = 1;
-    private static final int   EXTENDED_MAX_TARGETS  = 2;
-    private static final double RANGE                = 5.0;
-    private static final double ALIGN_DOT_MIN        = 0.95;
+    private static final float DAMAGE_PER_LEVEL = 0.05f;
+    private static final int BASE_MAX_TARGETS = 1;
+    private static final int EXTENDED_MAX_TARGETS = 2;
+    private static final double RANGE = 5.0;
+    private static final double ALIGN_DOT_MIN = 0.95;
 
     /* -------------------- Crit config -------------------- */
     private static final float CRIT_MULTIPLIER = 1.65f; // above vanilla
     private static final float BASE_CRIT_CHANCE = 0.02f; // per stack
-    private static final int   BASE_STACKS      = 3;     // normal mode max stacks
-    private static final int   MAX_STACKS_L5    = 5;     // level 5+
-    private static final int   STACK_HIT_COUNT  = 3;     // hits per stack increment
-    private static final int   TIMEOUT_TICKS    = 100;   // 5 seconds
+    private static final int BASE_STACKS = 3;     // normal mode max stacks
+    private static final int MAX_STACKS_L5 = 5;     // level 5+
+    private static final int STACK_HIT_COUNT = 3;     // hits per stack increment
+    private static final int TIMEOUT_TICKS = 100;   // 5 seconds
 
 
     private static class HitState {
         UUID currentTarget = null;
-        int hitsOnTarget   = 0;
-        int stacks         = 0;
-        long lastHitTick   = 0;
+        int hitsOnTarget = 0;
+        int stacks = 0;
+        long lastHitTick = 0;
     }
 
     private final Map<UUID, HitState> hitStates = new HashMap<>();
@@ -184,8 +184,6 @@ public class PiercingThrustModifier extends Modifier {
         Style modifierColor = getDisplayName().getStyle();
 
 
-
-        tooltip.add(Component.translatable("modifier.hephaestusexpansion.piercing_thrust.description"));
         tooltip.add(
                 Component.translatable("modifier.hephaestusexpansion.piercing_thrust.targets.value")
                         .append(": ")
@@ -195,18 +193,15 @@ public class PiercingThrustModifier extends Modifier {
                         .append(": ")
                         .append(Component.literal(String.format("%.1f%%", secondaryDamage * 100)).setStyle(modifierColor))
         );
-        tooltip.add(Component.translatable("modifier.hephaestusexpansion.piercing_thrust.description1"));
         tooltip.add(
                 Component.translatable("modifier.hephaestusexpansion.piercing_thrust.crit_chance_stack")
                         .append(": ")
                         .append(Component.literal(String.format("%.1f%%", critPerStack * 100)).setStyle(modifierColor))
-        );
-        tooltip.add(
-                Component.translatable("modifier.hephaestusexpansion.piercing_thrust.crit_chance")
+                        .append(" | ")
+                        .append(Component.translatable("modifier.hephaestusexpansion.piercing_thrust.crit_chance"))
                         .append(": ")
                         .append(Component.literal(String.format("%.1f%%", maxCritChance * 100)).setStyle(modifierColor))
-                        .append(" | ")
-                        .append(Component.translatable("modifier.hephaestusexpansion.piercing_thrust.description2"))
+
         );
     }
 }

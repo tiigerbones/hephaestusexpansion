@@ -1,6 +1,7 @@
 package com.enchantedwisp.hephaestusexpansion.modifiers;
 
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.Style;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.TooltipFlag;
@@ -16,11 +17,9 @@ import java.util.List;
 @SuppressWarnings("deprecation")
 public class TrueEdgeModifier extends Modifier {
 
-    private static final Component TRUE_EDGE_TOOLTIP = Component.translatable("modifier.hephaestusexpansion.true_edge.crit_chance");
-    private static final Component TRUE_PRECISION_TOOLTIP = Component.translatable("modifier.hephaestusexpansion.true_edge.true_precision");
-
     @Override
-    public float getEntityDamage(@NotNull IToolStackView tool, int level, ToolAttackContext context, float baseDamage, float damage) {
+    public float getEntityDamage(IToolStackView tool, int level, ToolAttackContext context,
+                                 float baseDamage, float damage) {
         LivingEntity attacker = context.getAttacker();
 
         // Crit chance: 5% base + 5% per level above 1
@@ -37,7 +36,8 @@ public class TrueEdgeModifier extends Modifier {
     }
 
     @Override
-    public int afterEntityHit(@NotNull IToolStackView tool, int level, ToolAttackContext context, float damageDealt) {
+    public int afterEntityHit(IToolStackView tool, int level, ToolAttackContext context,
+                              float damageDealt) {
         LivingEntity target = context.getLivingTarget();
         LivingEntity attacker = context.getAttacker();
 
@@ -60,13 +60,23 @@ public class TrueEdgeModifier extends Modifier {
                                List<Component> tooltip, TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
 
         float critChance = 0.05f + (Math.max(0, level - 1) * 0.05f);
+        Style modifierColor = getDisplayName().getStyle();
 
-        addPercentTooltip(TRUE_EDGE_TOOLTIP, critChance, tooltip);
+        tooltip.add(
+                Component.translatable("modifier.hephaestusexpansion.true_edge.crit_chance")
+                        .append(": ")
+                        .append(Component.literal(String.format("%.1f%%", critChance * 100)).setStyle(modifierColor))
+        );
 
         if (level >= 2) {
+
             float truePrecisionChance = 0.10f + ((level - 2) * 0.05f);
 
-            addPercentTooltip(TRUE_PRECISION_TOOLTIP, truePrecisionChance, tooltip);
+            tooltip.add(
+                    Component.translatable("modifier.hephaestusexpansion.true_edge.true_precision")
+                            .append(": ")
+                            .append(Component.literal(String.format("%.1f%%", truePrecisionChance * 100)).setStyle(modifierColor))
+            );
         }
     }
 }
