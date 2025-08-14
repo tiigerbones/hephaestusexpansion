@@ -16,8 +16,8 @@ import java.util.List;
 @SuppressWarnings("deprecation")
 public class TrueEdgeModifier extends Modifier {
 
-    private static final Component TRUE_EDGE_TOOLTIP = Component.translatable("modifier.true_edge.crit_chance");
-    private static final Component TRUE_PRECISION_TOOLTIP = Component.translatable("modifier.true_edge.true_precision");
+    private static final Component TRUE_EDGE_TOOLTIP = Component.translatable("modifier.hephaestusexpansion.true_edge.crit_chance");
+    private static final Component TRUE_PRECISION_TOOLTIP = Component.translatable("modifier.hephaestusexpansion.true_edge.true_precision");
 
     @Override
     public float getEntityDamage(@NotNull IToolStackView tool, int level, ToolAttackContext context, float baseDamage, float damage) {
@@ -58,11 +58,14 @@ public class TrueEdgeModifier extends Modifier {
     @Override
     public void addInformation(IToolStackView tool, int level, @Nullable Player player,
                                List<Component> tooltip, TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
+
         float critChance = 0.05f + (Math.max(0, level - 1) * 0.05f);
+
         addPercentTooltip(TRUE_EDGE_TOOLTIP, critChance, tooltip);
 
         if (level >= 2) {
             float truePrecisionChance = 0.10f + ((level - 2) * 0.05f);
+
             addPercentTooltip(TRUE_PRECISION_TOOLTIP, truePrecisionChance, tooltip);
         }
     }
