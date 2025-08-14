@@ -1,0 +1,11 @@
+{
+  "modifier.hephaestusexpansion": {
+    "__abilities__": null,
+
+    "__upgrades__": null,
+
+    "__traits__": null,
+    "piercing_thrust": "#A0BA6A",
+    "true_edge": "#4C3E5C"
+  }
+}

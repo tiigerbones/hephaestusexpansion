@@ -30,16 +30,19 @@
   "modifier.hephaestusexpansion.true_edge.description": "Grants a chance to deal critical hits with increased damage and partial armor bypass.",
   "modifier.hephaestusexpansion.true_edge.attack_damage": "Critical Strike",
 
-  "modifier.true_edge.crit_chance": "Crit Chance",
-  "modifier.true_edge.true_precision": "True Precision",
+  "modifier.hephaestusexpansion.true_edge.crit_chance": "Critical Strike Chance",
+  "modifier.hephaestusexpansion.true_edge.true_precision": "Precision Attack Chance",
 
   "modifier.hephaestusexpansion.piercing_thrust": "Piercing Thrust",
-  "modifier.hephaestusexpansion.piercing_thrust.flavor": "Long and effective",
-  "modifier.hephaestusexpansion.piercing_thrust.description": "Can Pierce through multiple enemies",
-  "modifier.hephaestusexpansion.piercing_thrust.attack_damage": "Piercing Strike",
+  "modifier.hephaestusexpansion.piercing_thrust.flavor": "Nothing stands in the way of your spear.",
+  "modifier.hephaestusexpansion.piercing_thrust.description": "Thrusts strikes additional enemies in a straight line.",
+  "modifier.hephaestusexpansion.piercing_thrust.description1": "Every 3rd hit on the same target within 5s adds a stack",
+  "modifier.hephaestusexpansion.piercing_thrust.description2": "Up to 3 times",
 
-  "modifier.piercing_thrust.chance": "Pierce Chance",
-  "modifier.piercing_thrust.damage": "Secondary Target Damage",
+  "modifier.hephaestusexpansion.piercing_thrust.damage": "Damage to additional Targets",
+  "modifier.hephaestusexpansion.piercing_thrust.crit_chance_stack": "Crit Chance added per stack",
+  "modifier.hephaestusexpansion.piercing_thrust.crit_chance": "Crit Chance Total",
+  "modifier.hephaestusexpansion.piercing_thrust.targets.value": "Additional Targets",
 
   "_comment4": "HephaestusTools Patterns",
   "pattern.hephaestusexpansion.katana_blade": "Katana Blade",
