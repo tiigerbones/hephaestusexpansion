@@ -124,8 +124,18 @@ dependencies {
     modImplementation ("maven.modrinth:additionalentityattributes:${project.aea_version}")
 
     // For testing
-    modLocalRuntime "maven.modrinth:better-combat:${project.bettercombat_version}"
-    modLocalRuntime "maven.modrinth:playeranimator:${project.playeranimator_version}"
+
+	// HespheastusPlus
+	if (project.use_bettercombat.toBoolean()) {
+		modLocalRuntime "maven.modrinth:better-combat:${project.bettercombat_version}"
+		modLocalRuntime "maven.modrinth:playeranimator:${project.playeranimator_version}"
+	} else {
+		modCompileOnly "maven.modrinth:better-combat:${project.bettercombat_version}"
+		modCompileOnly "maven.modrinth:playeranimator:${project.playeranimator_version}"
+	}
+
+
+
     modLocalRuntime "maven.modrinth:cloth-config:${project.cloth_version}"
     modLocalRuntime "maven.modrinth:mythicmetals:${project.mm_version}"
     modLocalRuntime "maven.modrinth:alloy-forgery:${project.af_version}"
