@@ -6,6 +6,7 @@ import slimeknights.tconstruct.library.modifiers.ModifierId;
 public class HephExModifierIds {
     public static final ModifierId true_edge = new ModifierId(HephaestusExpansion.MOD_ID, "true_edge");
     public static final ModifierId piercing_thrust = new ModifierId(HephaestusExpansion.MOD_ID, "piercing_thrust");
+    public static final ModifierId highland_wrath = new ModifierId(HephaestusExpansion.MOD_ID, "highland_wrath");
 
     private HephExModifierIds() {
     }
