@@ -1,6 +1,8 @@
 package com.enchantedwisp.hephaestusexpansion;
 
-import com.llamalad7.mixinextras.MixinExtrasBootstrap;
+import blue.endless.jankson.annotation.Nullable;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExItemRegistry;
+import com.enchantedwisp.hephaestusexpansion.registry.HephExModifierRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -8,23 +10,14 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.Nullable;
-
 public class HephaestusExpansion implements ModInitializer {
-
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("hephaestusexpansion");
 	public static final String MOD_ID = "hephaestusexpansion";
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-		MixinExtrasBootstrap.init();
-		HephExRegistry.init();
+        HephExModifierRegistry.register();
+        HephExItemRegistry.register();
 		LOGGER.info("Loaded Registry");
 	}
 

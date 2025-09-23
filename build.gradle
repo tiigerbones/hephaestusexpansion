@@ -113,28 +113,14 @@ dependencies {
 	// I can't believe I have to say this in a Minecraft video, but here it comes:
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 
-	// HespheastusPlus
-	if (project.use_heph_plus.toBoolean()) {
-		modImplementation "maven.modrinth:hephaestusplus:${project.hp_version}"
-	} else {
-		modCompileOnly "maven.modrinth:hephaestusplus:${project.hp_version}"
-	}
-
     // Additional Entity Attributes
     modImplementation ("maven.modrinth:additionalentityattributes:${project.aea_version}")
 
-    // For testing
+    modLocalRuntime "maven.modrinth:better-combat:${project.bettercombat_version}"
+    modLocalRuntime "maven.modrinth:playeranimator:${project.playeranimator_version}"
 
-	// HespheastusPlus
-	if (project.use_bettercombat.toBoolean()) {
-		modLocalRuntime "maven.modrinth:better-combat:${project.bettercombat_version}"
-		modLocalRuntime "maven.modrinth:playeranimator:${project.playeranimator_version}"
-	} else {
-		modCompileOnly "maven.modrinth:better-combat:${project.bettercombat_version}"
-		modCompileOnly "maven.modrinth:playeranimator:${project.playeranimator_version}"
-	}
-
-
+    // Compat
+    modImplementation "maven.modrinth:hephaestusplus:${project.hp_version}"
 
     modLocalRuntime "maven.modrinth:cloth-config:${project.cloth_version}"
     modLocalRuntime "maven.modrinth:mythicmetals:${project.mm_version}"
